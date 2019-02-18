@@ -1,0 +1,301 @@
+/*
+*  Responsive
+*/
+@mixin ios-input() {
+    input, textarea{
+        @include appearance();
+    }
+}
+
+@mixin dropdown-topbar() {
+    .active-mobile{
+        &:hover{
+            .active-content{
+                display: block;
+                @include opacity(1);
+                visibility: visible;
+            }
+        }
+        .menu-top-menu-header-container{
+            .menu{
+                li{
+                    float: none;
+                    line-height: 25px;
+                    a{
+                        padding: 0;
+                        border: 0;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End
+
+@media (min-width: $screen-lg) {
+
+}
+@media (max-width: $screen-md-max){
+    .btn-outline-lg{
+        padding: 8px 20px;
+    }
+    // banner center
+    .banner-center .entry-banner{
+        font-size: 30px;
+    }
+    //product-category
+    .products > .row{
+        > .first{
+            clear: none;
+        }
+        > li{
+            text-align: center;
+        }
+        > li:nth-child(3n+1),
+        > div:nth-child(3n+1){
+            clear: both;
+        }
+    }
+    // footer
+    .widget_mc4wp_form_widget .sent-mail .form-control,
+    .widget_mc4wp_form_widget .sent-mail .form-control{
+        width: 400px;
+    }
+}
+@media (max-width: $screen-sm-max){
+    //991
+    @include dropdown-topbar();
+    @include ios-input();
+    //widgets
+    .widget_wpo_menu_vertical{
+        display:none;
+    }
+     // header wrapper
+    //-------------------------------
+    .wpo-header .header-wrap {
+        .logo{
+            margin:$theme-margin/2 0px;
+        }
+        .main-menu{
+            border-left: 0;
+        }
+    }
+    .navbar-mega{
+        margin: 0;
+    }
+    .wpo-header.wpo-header-2 .header-wrap {
+        text-align: center;
+        .logo{
+            margin: 20px 0;
+        }
+    }
+    //  menu
+    //-------------------------------
+    .navbar-mega .navbar-nav > li .dropdown-menu{
+        margin-top: 0;
+    }
+    .wpo-megamenu{
+        .woocommerce{display: none}
+    }
+    // slider show
+    .tparrows.default{
+        display: none;
+    }
+    // genara block products
+    //-------------------------------
+    .product-grid{
+        .add-links{
+            display: none;
+        }
+        &.product-block{
+            &:hover{
+                .image{
+                    .image-effect{ @include translate(0px,0px);}
+                }
+                .price,
+                .rating{
+                    @include translate(0px,0px);
+                    @include opacity(1);
+                    visibility: visible;
+                }
+            }
+            .image-hover{display: none}
+            .caption:after{
+                opacity: 1;
+                width: 100%;
+                visibility: visible;
+            }
+            .price{
+                margin:0;
+            }
+            .add-button{
+                top: -34px;
+                visibility: visible;
+                opacity: 1;
+                @include translate(0px,0px);
+                .btn-outline{
+                    background: $theme-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    //Widget products
+    //-------------------------------
+    .loop-products{
+        > div{
+            &:nth-child(2n+1){
+                clear: both;
+            }
+        }
+    }
+    .related ,.upsells{
+        .loop-products{
+            > div{
+                &:nth-child(2n+1){
+                    clear: none;
+                }
+            }
+        }
+    }
+    // blog
+    .blog-type{
+        text-align: center;
+    }
+    body .blog{
+        &:after, .information{
+            width: 100%;
+        }
+        display: inline-block;
+    }
+    //sidebar
+    .sidebar-inner{
+        overflow: hidden;
+    }
+    // banner
+    .wrapper-banner{
+        text-align:center;
+        .banner-center{
+            display: inline-block;
+        }
+    }
+    .banner .media-heading{
+        font-size: 12px;
+    }
+    footer{
+        .sm-clear{
+            clear: both;
+        }
+    }
+    .footer-middle .container-inner > div:last-child{
+        border-left: 0;
+    }
+    .widget_mc4wp_form_widget .sent-mail,
+    .widget_mc4wp_form_widget .sent-mail{
+        float:left !important;
+    }
+    .rtl .widget_mc4wp_form_widget .sent-mail,
+    .rtl .widget_mc4wp_form_widget .sent-mail{
+        float:right !important;
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    //767
+    //menu
+    .main-menu{
+        .header-bottom{
+            width: 100%;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            .top-cart{
+                @include rtl-float-right();
+                width: auto;
+                .mini-cart{
+                    padding: 10px;
+                    height: 40px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    .topbar{
+        padding: 0;
+        .user-login{
+            padding-top: 15px;
+        }
+    }
+    .product-block.product-grid{
+        margin-bottom: $theme-margin !important;
+    }
+    // footer-top
+    .footer-top > .row > div{
+        border-bottom: 1px solid $border-color;
+        overflow: hidden;
+    }
+    .footer-middle{
+        .container-inner > div{
+            padding: $theme-padding;
+        }
+        .widget .widget-title{
+            margin-bottom: $theme-margin/2;
+        }
+    }
+    // sing product
+    .product-info {
+        .entry-summary{
+            padding: 10px;
+        }
+        .yith_magnifier_zoom_wrap{
+            text-align: center;
+        }
+        .yith_magnifier_zoom{
+            display: inline-block;
+            max-width: 100%;
+        }
+        .yith_magnifier_zoom_magnifier{
+            display: none !important;
+        }
+    }
+
+    .loop-posts{
+        .blog{
+            margin-bottom: $theme-margin !important;
+        }
+        > div{
+            &:last-child{
+                .blog{
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $screen-phone) {
+    //480px
+    .user-login{
+        display: none;
+    }
+    .wpo-topbar .top-menu {
+        width: 100%;
+        > li > a{
+            padding: 5px;
+            font-size: 11px;
+        }
+    }
+    .widget_mc4wp_form_widget .sent-mail .form-control ,.widget_mc4wp_form_widget .sent-mail .form-control{
+        width: 278px;
+    }
+    // nav products
+    .nav-product > li{
+        float: none;
+        > a{
+            @include rtl-padding-left(0px);
+        }
+    }
+}

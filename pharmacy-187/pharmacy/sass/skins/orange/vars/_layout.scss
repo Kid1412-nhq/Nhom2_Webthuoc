@@ -1,0 +1,169 @@
+// Box Modules
+// ========================================================================
+$block-module-margin-bottom: 			18px !default;
+$block-module-padding  :				0 !default;
+$block-module-border-color: 			$nocolor  !default;
+
+$block-module-heading-border-color:     transparent transparent $border-color !default;
+$block-module-heading-border-width:     0 0 1px 0 !default;
+$block-module-heading-transform:        uppercase !default;
+$block-module-heading-line-height:      normal !default;
+$block-module-heading-font-family:    	$font-family-secondary !default;
+$block-module-heading-bg:				#fff !default;
+$block-module-heading-padding: 			20px 18px !default;
+$block-module-heading-margin:           18px !default;
+$block-module-heading-font:				$font-family-secondary !default;
+$block-module-heading-font-size:		14px !default;
+$block-module-heading-color:			#000 !default;
+// title
+$block-module-heading-default-bg:       $theme-color !default;
+$block-module-heading-primary-bg:       $theme-color-secondary !default;
+
+$block-module-content-bg:				$white !default;
+$block-module-content-border:			1px solid $border-color !default;
+$block-module-content-padding:			18px !default;
+$block-module-content-margin:         	1px !default;
+$block-module-content-radius:         	0px !default;
+
+$block-module-highlighted-bg			: $theme-color !default;
+$block-module-highlighted-border		: solid 2px $theme-color !default;
+$block-module-footer-heading-color:  	  #FFFFFF !default;
+
+$block-product-padding:                 0 !default;
+$block-heading-letter-spacing:          0 !default;
+
+// Sidebar
+// -------------------------
+$block-sidebar-module-border:               $border-color !default;
+$block-sidebar-box-padding:                 $theme-margin 30px !default;
+$block-sidebar-box-margin:                  29px !default;
+$block-sidebar-list-padding-vertical:       13px 0px 13px 13px !default;
+$block-sidebar-list-border-color:           $border-color !default;
+$block-sidebar-box-hightlight-bg:           #fff !default;
+$block-sidebar-heading-hightlight-bg:       $theme-color !default;
+$block-sidebar-heading-hightlight-padding:  19px 30px !default;
+$block-sidebar-heading-hightlight-color:    $white !default;
+$block-sidebar-link-hightlight-color:       $white !default;
+$block-sidebar-link-hightlight-hover-color: $theme-color !default;
+$block-sidebar-list-hightlight-border-color:#393939 !default;
+$block-sidebar-list-hightlight-font-size:   10px !default;
+$block-sidebar-list-hightlight-padding:     17px 30px !default;
+$block-sidebar-list-image:                  url('#{$image-theme-path}dot.jpg') 0 22px no-repeat !default;
+$block-sidebar-widget-product-list-width:   70px !default;
+$block-sidebar-widget-product-list-height:  70px !default;
+
+
+/********* LAYOUT **************/
+
+// Topbar
+// -------------------------
+$topbar-bg:                 transparent !default;
+$topbar-inner-bg:           #56493d !default;
+$topbar-link-color:         #fff !default;
+$topbar-link-hover-color:   $theme-color !default;
+$topbar-color:              #aaaaaa !default;
+$topbar-border:             0 !default;
+$topbar-font-size:          12px !default;
+$topbar-padding-vertical:   0px !default;
+$topbar-icon-color:         #cccccc !default;
+$topbar-icon-font-size:     12px !default;
+
+//Header
+// -------------------------
+$header-bg                  : transparent !default;
+$header-inner-bg            : #fff !default;
+$header-margin              :0 !default;
+$header-padding             :0 0 18px 0 !default;
+$header-font-size           : $font-size-base !default;
+$header-border              : 0 !default;
+$header-color               : $black !default;
+$header-link-color          : $black !default;
+$header-link-hover-color    : $theme-color !default;
+$header-icon-color          : $black !default;
+$header-icon-font-size      : 13px !default;
+$header-list-font-size      : 13px !default;
+
+// Slideshow
+// -------------------------
+$slideshow-btn-padding:             0px 15px !important;
+$slideshow-btn-font-size:           12px !important;
+$slideshow-btn-height:              36px !default;
+$slideshow-arrow:                   $white !default;
+$slideshow-font-family-special:     $font-family-quinary !default;
+$slideshow-text-border:             $white !default;
+
+// Search
+// -------------------------
+$search-bg:                 transparent !default;
+$search-font-size:          12px !default;
+$search-padding:            25px 10px !default;
+$search-width:              auto !default;
+$search-button-bg:          $search-bg !default;
+$search-main-button-bg:     $white !default;
+$search-main-button-border: $border-color !default;
+$search-main-button-color:  $black !default;
+$search-button-border:      0px !default;
+$search-button-hover-bg:    $white !default;
+$search-button-color:       #000 !default;
+$search-button-size:        37px !default;
+$search-button-hover-color: $black !default;
+$search-radius:             3px !default;
+$search-height:             38px !default;
+$search-border:             transparent !default;
+$search-hover-border:       $border-color !default;
+$search-border-radius:      4px !default;
+
+
+// Footer
+// -------------------------
+$footer-bg                  :transparent !default;
+$footer-inner-bg            :#56493d !default;
+$footer-font-size           :13px !default;
+$footer-color               :#aaaaaa !default;
+$footer-padding             :0 !default;
+$footer-transform           :none !default;
+$footer-border-color        :$border-color !default;
+$footer-border              :0 !default;
+$footer-link-color          :$footer-color !default;
+$footer-link-hover-color    :$theme-color !default;
+$footer-icon-color          :#fff !default;
+$footer-icon-font-size      :14px !default;
+$footer-heading-font-size   :12px !default;
+$footer-heading-font-family :$font-family-secondary;
+$footer-heading-color       :$white !default;
+$footer-heading-bg          :transparent !default;
+$footer-heading-margin      :15px 0  !default;
+$footer-heading-padding     :0 !default;
+$footer-list-transform      :inherit !default;
+$footer-list-font-size      :$font-size-base !default;
+$footer-list-margin         :0px !default;
+// footer top
+$footer-top-bg              :#fff !default;
+$footer-top-inner-bg        :#fff !default;
+$footer-top-color           :#828282 !default;
+$footer-top-heading-color   :#000 !default;
+$footer-top-icon-color      :#000 !default;
+$footer-top-icon-font-size: 14px !default;
+// footer bottom
+$footer-bottom-padding      :40px 0px;
+$footer-bottom-border-color :#5f5247 !default;
+$footer-bottom-icon-color   :#c7c7c7 !default;
+
+// footer middle
+$footer-middle-widget-border:#786d64 !default;
+$footer-middle-padding      :0 !default;
+$footer-newsletter-padding  :23px 30px !default;
+$footer-newsletter-bg       :$footer-inner-bg !default;
+$footer-input-bg            :#fff !default;
+$footer-input-color         :$text-color !default;
+$footer-input-border        :$border-color !default;
+$footer-input-font-size     :11px !default;
+
+// Copyright
+// -------------------------
+$copyright-padding          : 30px 20px 70px;
+$copyright-bg               :transparent !default;
+$copyright-inner-bg         :#56493d !default;
+$copyright-color            :#aaaaaa !default;
+$copyright-link-color       :lighten($copyright-color,20%) !default;
+$copyright-link-hover-color :$theme-color !default;

@@ -1,0 +1,3009 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-03 07:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "Blog"
+msgstr ""
+
+#: comments.php:21
+msgid "0 Comment"
+msgstr ""
+
+#: comments.php:21
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:21
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:33
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:49
+msgid "Comment: "
+msgstr ""
+
+#: comments.php:56
+msgid "Name:"
+msgstr ""
+
+#: comments.php:60
+msgid "Email:"
+msgstr ""
+
+#: comments.php:64
+msgid "Website:"
+msgstr ""
+
+#: comments.php:68
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:102 woocommerce/loop/sale-flash.php:18
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale"
+msgstr ""
+
+#: header-style2.php:36 header-style3.php:36 header.php:33
+#: framework/shortcodes/submenu.php:57 sub/vc_shortcodes/theme.php:22
+msgid "Menu"
+msgstr ""
+
+#: header-style2.php:63 header-style3.php:63 header.php:60
+msgid "Welcome visitor you can"
+msgstr ""
+
+#: header-style2.php:64 header-style3.php:64 header.php:61
+msgid "login or register"
+msgstr ""
+
+#: header-style2.php:64 header-style3.php:64 header.php:61
+msgid " login or register "
+msgstr ""
+
+#: header-style2.php:67 header-style3.php:67 header.php:64
+msgid "Welcome "
+msgstr ""
+
+#: header.php:123 searchform.php:17
+msgid "Search..."
+msgstr ""
+
+#: options.php:53
+msgid "Enable Effect Scroll"
+msgstr ""
+
+#: options.php:54
+msgid "Check the box to enable effect animations when you scroll ."
+msgstr ""
+
+#: options.php:60
+msgid "Image Footer"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: sub/pagebuilder.php:50 framework/classes/core/megamenu-config.php:170
+#: framework/admin/templates/megamenu/editor-vertical.php:136
+msgid "Description"
+msgstr ""
+
+#: sub/pagebuilder.php:62
+msgid "Parallax"
+msgstr ""
+
+#: sub/pagebuilder.php:65
+msgid "Yes, please"
+msgstr ""
+
+#: sub/pagebuilder.php:77
+msgid "CSS Animation"
+msgstr ""
+
+#: sub/pagebuilder.php:81
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: sub/pagebuilder.php:90 framework/classes/core/options.php:92
+msgid "Layout Type"
+msgstr ""
+
+#: sub/pagebuilder.php:103 sub/vc_shortcodes/theme.php:75
+msgid "Select Skin layout."
+msgstr ""
+
+#: sub/pagebuilder.php:114 sub/vc_shortcodes/theme.php:113
+#: sub/vc_shortcodes/woocommerce.php:95 sub/vc_shortcodes/woocommerce.php:235
+#: framework/admin/templates/megamenu/editor-vertical.php:130
+msgid "Icon"
+msgstr ""
+
+#: sub/pagebuilder.php:127 sub/pagebuilder.php:146
+msgid "Default"
+msgstr ""
+
+#: sub/pagebuilder.php:128
+msgid "Primary"
+msgstr ""
+
+#: sub/pagebuilder.php:129
+msgid "Success"
+msgstr ""
+
+#: sub/pagebuilder.php:130
+msgid "Info"
+msgstr ""
+
+#: sub/pagebuilder.php:131
+msgid "Danger"
+msgstr ""
+
+#: sub/pagebuilder.php:132
+msgid "Link"
+msgstr ""
+
+#: sub/pagebuilder.php:134 framework/shortcodes/products.php:46
+#: sub/vc_shortcodes/woocommerce.php:128
+#: framework/admin/templates/megamenu/editor-vertical.php:84
+#: framework/admin/templates/megamenu/editor.php:86
+msgid "Type"
+msgstr ""
+
+#: sub/pagebuilder.php:147
+msgid "Large"
+msgstr ""
+
+#: sub/pagebuilder.php:148
+msgid "Small"
+msgstr ""
+
+#: sub/pagebuilder.php:149
+msgid "Extra small"
+msgstr ""
+
+#: sub/theme.php:96
+msgid "SEO Fields"
+msgstr ""
+
+#: sub/theme.php:106
+msgid "Advanced Configuration"
+msgstr ""
+
+#: sub/theme.php:114
+msgid "Configuration"
+msgstr ""
+
+#: sub/theme.php:122
+msgid "Page Configuration"
+msgstr ""
+
+#: sub/theme.php:130
+msgid "Embed Options"
+msgstr ""
+
+#: sub/theme.php:255
+msgid "Slideshow"
+msgstr ""
+
+#: sub/theme.php:257
+msgid "Appears in the slideshow section of the site."
+msgstr ""
+
+#: sub/theme.php:265 sub/customfield/page.php:30
+#: framework/classes/core/options.php:116
+#: framework/classes/core/options.php:406
+#: framework/classes/core/options.php:435
+#: framework/admin/templates/options/page.php:30
+msgid "Left Sidebar"
+msgstr ""
+
+#: sub/theme.php:267 sub/theme.php:277 sub/theme.php:289 sub/theme.php:300
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: sub/theme.php:275 sub/customfield/page.php:31
+#: framework/classes/core/options.php:108
+#: framework/classes/core/options.php:398
+#: framework/classes/core/options.php:427
+#: framework/admin/templates/options/page.php:31
+msgid "Right Sidebar"
+msgstr ""
+
+#: sub/theme.php:287
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: sub/theme.php:298
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: sub/theme.php:309
+msgid "Footer 1"
+msgstr ""
+
+#: sub/theme.php:311 sub/theme.php:321 sub/theme.php:331 sub/theme.php:341
+#: sub/theme.php:351 sub/theme.php:362
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: sub/theme.php:319
+msgid "Footer 2"
+msgstr ""
+
+#: sub/theme.php:329
+msgid "Footer 3"
+msgstr ""
+
+#: sub/theme.php:339
+msgid "Footer 4"
+msgstr ""
+
+#: sub/theme.php:349
+msgid "Footer 5"
+msgstr ""
+
+#: sub/theme.php:360
+msgid "Footer 6"
+msgstr ""
+
+#: templates/author-bio.php:17
+msgid "About the Author :"
+msgstr ""
+
+#: templates/breadcrumb.php:27
+msgid "Home"
+msgstr ""
+
+#: templates/breadcrumb.php:46
+msgid "Archive by date \""
+msgstr ""
+
+#: templates/breadcrumb.php:49
+msgid "Archive by month \""
+msgstr ""
+
+#: templates/breadcrumb.php:51
+msgid "Archive by year \""
+msgstr ""
+
+#: templates/breadcrumb.php:91
+msgid "Search results for \""
+msgstr ""
+
+#: templates/breadcrumb.php:93
+msgid "Archive by tag \""
+msgstr ""
+
+#: templates/breadcrumb.php:97
+msgid "Articles posted by \""
+msgstr ""
+
+#: templates/breadcrumb.php:99
+msgid "Error 404 not Found"
+msgstr ""
+
+#: templates/list_comments.php:30
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/list_comments.php:31
+msgid " - Edit"
+msgstr ""
+
+#: templates/list_comments.php:32
+msgid " - Reply"
+msgstr ""
+
+#: templates/list_comments.php:37
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/none.php:7
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: templates/none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: vc_templates/vc_accordion_tab.php:6
+msgid "Section"
+msgstr ""
+
+#: vc_templates/vc_button.php:10
+msgid "Text on the button"
+msgstr ""
+
+#: vc_templates/vc_posts_grid.php:50
+msgid "Read More"
+msgstr ""
+
+#: vc_templates/vc_posts_slider.php:151 vc_templates/post_block/_item.php:18
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: vc_templates/vc_posts_slider.php:191
+msgid "Nothing found."
+msgstr ""
+
+#: woocommerce/content-product-inner.php:52
+msgid "Compare"
+msgstr ""
+
+#: woocommerce/content-product-inner.php:61
+msgid "Quickview"
+msgstr ""
+
+#: woocommerce/content-product-list.php:77
+msgid "Category: "
+msgstr ""
+
+#: woocommerce/content-product-list.php:83
+msgid "Quick view"
+msgstr ""
+
+#: woocommerce/content-product-list.php:100
+msgid "add to compare"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+#: framework/classes/core/options.php:185
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#: framework/import/class.wordpress-importer.php:419
+#: framework/admin/templates/livetheme/editor.php:44
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/classes/admin.php:39 framework/classes/core/options.php:271
+#: framework/classes/core/options.php:324
+msgid "Megamenu Editor"
+msgstr ""
+
+#: framework/classes/admin.php:41
+msgid "Megamenu Vertical"
+msgstr ""
+
+#: framework/classes/admin.php:43
+msgid "Live Theme Editor"
+msgstr ""
+
+#: framework/classes/megamenu-editor.php:197
+msgid "Widgets published"
+msgstr ""
+
+#: framework/classes/megamenu-editor.php:201
+msgid "Widgets updated"
+msgstr ""
+
+#: framework/classes/shortcodes.php:93
+msgid "No button for this"
+msgstr ""
+
+#: framework/classes/shortcodes.php:104
+msgid "No data for this"
+msgstr ""
+
+#: framework/classes/woocommerce.php:85
+msgid "Placeholder"
+msgstr ""
+
+#: framework/classes/woocommerce.php:101
+msgid "View"
+msgstr ""
+
+#: framework/classes/woocommerce.php:104 sub/vc_shortcodes/woocommerce.php:39
+msgid "List"
+msgstr ""
+
+#: framework/classes/woocommerce.php:109 sub/vc_shortcodes/woocommerce.php:38
+msgid "Grid"
+msgstr ""
+
+#: framework/export/export.php:73
+msgid ""
+"You do not have sufficient permissions to export the content of this site."
+msgstr ""
+
+#: framework/export/export.php:77
+msgid "Export"
+msgstr ""
+
+#: framework/export/export.php:330 framework/export/export.php:330
+msgid "WpOpal Export"
+msgstr ""
+
+#: framework/export/export.php:359
+msgid "Export Wordpress Content"
+msgstr ""
+
+#: framework/export/export.php:407
+msgid "Export Revolution Slider"
+msgstr ""
+
+#: framework/functions/functions.php:62
+msgid " seconds ago"
+msgstr ""
+
+#: framework/functions/functions.php:68
+msgid " minutes ago"
+msgstr ""
+
+#: framework/functions/functions.php:74
+msgid " hours ago"
+msgstr ""
+
+#: framework/functions/functions.php:81
+msgid " days ago"
+msgstr ""
+
+#: framework/functions/functions.php:84
+msgid " weeks ago"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:267
+#: framework/import/class.wordpress-importer.php:276
+#: framework/import/class.wordpress-importer.php:327
+#: framework/import/class.wordpress-importer.php:331
+#: framework/import/class.wordpress-importer.php:340
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:268
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:311
+msgid "All done."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:311
+msgid "Have fun!"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:312
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:332
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:348
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:373
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:399
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:400
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>"
+"admin</code>s entries."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:402
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:412
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:415
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:432
+msgid "Import author:"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:443
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:446
+msgid "as a new user:"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:454
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:456
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:457
+msgid "- Select -"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:507
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:558
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:598
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:644
+#: framework/import/class.wordpress-importer.php:799
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:684
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:706
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:765
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:934
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:941
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1043
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1057
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1158
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1164
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1171
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1176
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1182
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1281
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1288
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1303
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1304
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/import/class.wordpress-importer.php:1378
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: framework/import/import.php:115
+msgid "Customizer options imported successfully"
+msgstr ""
+
+#: framework/import/import.php:224 framework/import/import.php:358
+msgid "Error loading files"
+msgstr ""
+
+#: framework/import/import.php:243
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: framework/import/import.php:351
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: framework/import/import.php:354
+msgid "Content imported successfully"
+msgstr ""
+
+#: framework/import/import.php:374 framework/import/import.php:394
+msgid "File doesn't exist"
+msgstr ""
+
+#: framework/import/import.php:440
+msgid "WpOpal Import"
+msgstr ""
+
+#: framework/import/import.php:486
+msgid ""
+"Click to the follow buttons to get sample demo from our live sites, the "
+"package will put into THEME/inc/import folder.<br> Or you can copy the demo "
+"package from the downloadable you purchased. <br> Please make sure this "
+"folder has writeable permision"
+msgstr ""
+
+#: framework/import/import.php:491
+msgid "THEME/inc/import folder is not writeable"
+msgstr ""
+
+#: framework/import/import.php:506
+#, php-format
+msgid ""
+"<strong>Important:</strong> The Importer requires memory limit of your "
+"system >= %1$sMB. Please follow <a href=\"%2$s\" target=\"_blank\">these "
+"guidelines</a> to improve it."
+msgstr ""
+
+#: framework/import/import.php:521
+msgid "Get Demo From Live Server"
+msgstr ""
+
+#: framework/import/import.php:536
+msgid ""
+"Please wait when the import is running! It will take time needed to download "
+"all attachments from demo web site."
+msgstr ""
+
+#: framework/import/import.php:542
+msgid "Demo Source"
+msgstr ""
+
+#: framework/import/import.php:560
+msgid "Import Type"
+msgstr ""
+
+#: framework/import/import.php:563
+msgid "Please Select "
+msgstr ""
+
+#: framework/import/import.php:575
+msgid "Import"
+msgstr ""
+
+#: framework/import/import.php:588
+msgid "This theme has not any package ready for installing demo."
+msgstr ""
+
+#: framework/import/import.php:626
+msgid "Do you want to import demo now?"
+msgstr ""
+
+#: framework/import/parsers.php:45 framework/import/parsers.php:76
+#: framework/import/parsers.php:84
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/import/parsers.php:46
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/import/parsers.php:89 framework/import/parsers.php:95
+#: framework/import/parsers.php:329 framework/import/parsers.php:545
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/shortcodes/accordion.php:31
+msgid "Accoridion List"
+msgstr ""
+
+#: framework/shortcodes/accordion.php:32
+msgid "Display Accordion List Supported By Bootstrap 3"
+msgstr ""
+
+#: framework/shortcodes/accordion.php:40 framework/shortcodes/accordion.php:57
+msgid "Input 1"
+msgstr ""
+
+#: framework/shortcodes/accordion.php:50
+msgid "Input 2"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:30
+msgid "Blog Tabs"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:31 framework/shortcodes/gmap.php:32
+#: framework/shortcodes/image.php:21
+msgid "Display Banner Image Or Ads Banner"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:40
+msgid "Category Parent"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:43 framework/shortcodes/image.php:33
+msgid "Put Your Image Link Here"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:49 framework/shortcodes/gmap.php:42
+msgid "Count Item"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:58 framework/shortcodes/content.php:39
+#: framework/shortcodes/gallery.php:39 framework/shortcodes/image.php:39
+#: framework/shortcodes/raw_html.php:40 framework/shortcodes/recent_post.php:48
+#: framework/shortcodes/sidebar.php:37 framework/shortcodes/submenu.php:67
+#: framework/shortcodes/video.php:36
+#: framework/admin/templates/megamenu/editor-vertical.php:188
+#: framework/admin/templates/megamenu/editor.php:166
+msgid "Addition Class"
+msgstr ""
+
+#: framework/shortcodes/blog_tab.php:61 framework/shortcodes/content.php:42
+#: framework/shortcodes/gallery.php:42 framework/shortcodes/image.php:42
+#: framework/shortcodes/raw_html.php:43 framework/shortcodes/recent_post.php:51
+#: framework/shortcodes/sidebar.php:40 framework/shortcodes/submenu.php:70
+#: framework/shortcodes/video.php:39
+msgid "Using to make own style"
+msgstr ""
+
+#: framework/shortcodes/content.php:21
+msgid "Text Content"
+msgstr ""
+
+#: framework/shortcodes/content.php:22
+msgid "Supported with WYSWYG Editor"
+msgstr ""
+
+#: framework/shortcodes/content.php:30
+msgid "Content"
+msgstr ""
+
+#: framework/shortcodes/content.php:33
+msgid "Put Content Here"
+msgstr ""
+
+#: framework/shortcodes/gallery.php:20
+msgid "Images Gallery"
+msgstr ""
+
+#: framework/shortcodes/gallery.php:21
+msgid "Display List of Images"
+msgstr ""
+
+#: framework/shortcodes/gallery.php:30 framework/shortcodes/recent_post.php:29
+msgid "Limited Post"
+msgstr ""
+
+#: framework/shortcodes/gallery.php:33 framework/shortcodes/recent_post.php:32
+#: framework/shortcodes/video.php:31
+msgid "Enter Vimeo Link or Youtube Here"
+msgstr ""
+
+#: framework/shortcodes/gmap.php:31
+msgid "Google Map"
+msgstr ""
+
+#: framework/shortcodes/gmap.php:51
+msgid "Map Height"
+msgstr ""
+
+#: framework/shortcodes/gmap.php:59 framework/shortcodes/gmap.php:73
+msgid "Map type"
+msgstr ""
+
+#: framework/shortcodes/image.php:20
+msgid "Single Image"
+msgstr ""
+
+#: framework/shortcodes/image.php:30
+msgid "Image Link"
+msgstr ""
+
+#: framework/shortcodes/products.php:30
+msgid "Products"
+msgstr ""
+
+#: framework/shortcodes/products.php:31
+msgid "Display Products"
+msgstr ""
+
+#: framework/shortcodes/products.php:41 framework/shortcodes/submenu.php:42
+#: sub/vc_shortcodes/theme.php:16 sub/vc_shortcodes/theme.php:61
+#: sub/vc_shortcodes/theme.php:100 sub/vc_shortcodes/woocommerce.php:12
+#: sub/vc_shortcodes/woocommerce.php:121 sub/vc_shortcodes/woocommerce.php:175
+#: sub/vc_shortcodes/woocommerce.php:222 sub/vc_shortcodes/woocommerce.php:262
+msgid "Title"
+msgstr ""
+
+#: framework/shortcodes/products.php:50 sub/vc_shortcodes/woocommerce.php:45
+msgid "Top Rate"
+msgstr ""
+
+#: framework/shortcodes/products.php:51 sub/vc_shortcodes/woocommerce.php:46
+msgid "Recent Products"
+msgstr ""
+
+#: framework/shortcodes/products.php:52 sub/vc_shortcodes/woocommerce.php:44
+#: sub/vc_shortcodes/woocommerce.php:53
+#: sub/vc_shortcodes/class/all_products.php:22
+msgid "Featured Products"
+msgstr ""
+
+#: framework/shortcodes/products.php:53 sub/vc_shortcodes/woocommerce.php:43
+msgid "Best Selling"
+msgstr ""
+
+#: framework/shortcodes/products.php:58 sub/vc_shortcodes/woocommerce.php:87
+#: sub/vc_shortcodes/woocommerce.php:142 sub/vc_shortcodes/woocommerce.php:196
+msgid "Columns count"
+msgstr ""
+
+#: framework/shortcodes/products.php:65 sub/vc_shortcodes/woocommerce.php:81
+#: sub/vc_shortcodes/woocommerce.php:150 sub/vc_shortcodes/woocommerce.php:190
+msgid "Number of products to show"
+msgstr ""
+
+#: framework/shortcodes/raw_html.php:21 framework/shortcodes/raw_html.php:31
+msgid "Raw HTML Code"
+msgstr ""
+
+#: framework/shortcodes/raw_html.php:22
+msgid "Display HTML CODE"
+msgstr ""
+
+#: framework/shortcodes/raw_html.php:34
+msgid "Put your html code here"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:20
+msgid "Recent Post"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:21
+msgid "Display List of Newest Post"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:38
+msgid "Display Date"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:41
+msgid "Display posted data"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:43
+#: framework/classes/core/pagebuilder.php:76
+#: framework/widgets/twitter/twitter.php:128
+#: framework/admin/templates/megamenu/editor-vertical.php:117
+#: framework/admin/templates/megamenu/editor-vertical.php:224
+#: framework/admin/templates/megamenu/editor.php:119
+#: framework/admin/templates/megamenu/editor.php:202
+msgid "No"
+msgstr ""
+
+#: framework/shortcodes/recent_post.php:43
+#: framework/widgets/twitter/twitter.php:127
+#: framework/admin/templates/megamenu/editor-vertical.php:118
+#: framework/admin/templates/megamenu/editor-vertical.php:225
+#: framework/admin/templates/megamenu/editor.php:120
+#: framework/admin/templates/megamenu/editor.php:203
+msgid "Yes"
+msgstr ""
+
+#: framework/shortcodes/sidebar.php:20
+msgid "Sidebar Embeded"
+msgstr ""
+
+#: framework/shortcodes/sidebar.php:21
+msgid "Embeded widgets in a sidebar"
+msgstr ""
+
+#: framework/shortcodes/sidebar.php:30
+msgid "Sidebar"
+msgstr ""
+
+#: framework/shortcodes/sidebar.php:33
+msgid "Display all widgets on selected sidebar"
+msgstr ""
+
+#: framework/shortcodes/submenu.php:33
+msgid "Sub Menu"
+msgstr ""
+
+#: framework/shortcodes/submenu.php:45
+msgid "Put Title Here"
+msgstr ""
+
+#: framework/shortcodes/submenu.php:60
+msgid "Select Menu"
+msgstr ""
+
+#: framework/shortcodes/tab.php:17
+msgid "Tab List"
+msgstr ""
+
+#: framework/shortcodes/tab.php:18
+msgid "Display Tab List Supported By Bootstrap 3"
+msgstr ""
+
+#: framework/shortcodes/video.php:19 framework/types/video.php:18
+#: framework/types/video.php:19
+msgid "Video"
+msgstr ""
+
+#: framework/shortcodes/video.php:20
+msgid "Embed Youtube/Vimeo Video"
+msgstr ""
+
+#: framework/shortcodes/video.php:28
+msgid "Video Link"
+msgstr ""
+
+#: framework/types/brands.php:18 framework/types/brands.php:19
+msgid "Brand"
+msgstr ""
+
+#: framework/types/brands.php:20 framework/types/brands.php:21
+msgid "Add New Brand"
+msgstr ""
+
+#: framework/types/brands.php:22
+msgid "Edit Brand"
+msgstr ""
+
+#: framework/types/brands.php:23
+msgid "New Brand"
+msgstr ""
+
+#: framework/types/brands.php:24
+msgid "View Brand"
+msgstr ""
+
+#: framework/types/brands.php:25
+msgid "Search Brands"
+msgstr ""
+
+#: framework/types/brands.php:26
+msgid "No Brands found"
+msgstr ""
+
+#: framework/types/brands.php:27
+msgid "No Brands found in Trash"
+msgstr ""
+
+#: framework/types/brands.php:28
+msgid "Parent Brand:"
+msgstr ""
+
+#: framework/types/brands.php:29
+msgid "Opal Brands"
+msgstr ""
+
+#: framework/types/faq.php:23
+msgid "Opal FAQs"
+msgstr ""
+
+#: framework/types/portfolio.php:17
+msgid "Portfolios"
+msgstr ""
+
+#: framework/types/portfolio.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: framework/types/portfolio.php:19 framework/types/portfolio.php:20
+msgid "Add New Portfolio"
+msgstr ""
+
+#: framework/types/portfolio.php:21
+msgid "Edit Portfolio"
+msgstr ""
+
+#: framework/types/portfolio.php:22
+msgid "New Portfolio"
+msgstr ""
+
+#: framework/types/portfolio.php:23
+msgid "View Portfolio"
+msgstr ""
+
+#: framework/types/portfolio.php:24
+msgid "Search Portfolios"
+msgstr ""
+
+#: framework/types/portfolio.php:25
+msgid "No Portfolios found"
+msgstr ""
+
+#: framework/types/portfolio.php:26
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: framework/types/portfolio.php:27
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: framework/types/portfolio.php:28
+msgid "Opal Portfolios"
+msgstr ""
+
+#: framework/types/portfolio.php:57 framework/types/portfolio.php:67
+msgid "Categories"
+msgstr ""
+
+#: framework/types/portfolio.php:58 sub/vc_shortcodes/woocommerce.php:68
+msgid "Category"
+msgstr ""
+
+#: framework/types/portfolio.php:59
+msgid "Search Category"
+msgstr ""
+
+#: framework/types/portfolio.php:60
+msgid "All Categories"
+msgstr ""
+
+#: framework/types/portfolio.php:61
+msgid "Parent Category"
+msgstr ""
+
+#: framework/types/portfolio.php:62
+msgid "Parent Category:"
+msgstr ""
+
+#: framework/types/portfolio.php:63
+msgid "Edit Category"
+msgstr ""
+
+#: framework/types/portfolio.php:64
+msgid "Update Category"
+msgstr ""
+
+#: framework/types/portfolio.php:65
+msgid "Add New Category"
+msgstr ""
+
+#: framework/types/portfolio.php:66
+msgid "New Category Name"
+msgstr ""
+
+#: framework/types/sliders.php:6
+msgid "Sliders"
+msgstr ""
+
+#: framework/types/sliders.php:7
+msgid "Slider"
+msgstr ""
+
+#: framework/types/sliders.php:8 framework/types/sliders.php:9
+msgid "Add New Slider"
+msgstr ""
+
+#: framework/types/sliders.php:10
+msgid "Edit Slider"
+msgstr ""
+
+#: framework/types/sliders.php:11
+msgid "New Slider"
+msgstr ""
+
+#: framework/types/sliders.php:12
+msgid "View Slider"
+msgstr ""
+
+#: framework/types/sliders.php:13
+msgid "Search Slider"
+msgstr ""
+
+#: framework/types/sliders.php:14
+msgid "No Slider found"
+msgstr ""
+
+#: framework/types/sliders.php:15
+msgid "No Slider found in Trash"
+msgstr ""
+
+#: framework/types/sliders.php:16
+msgid "Parent Slider:"
+msgstr ""
+
+#: framework/types/sliders.php:17
+msgid "Opal Sliders"
+msgstr ""
+
+#: framework/types/sliders.php:43 framework/types/sliders.php:53
+msgid "Slider groups"
+msgstr ""
+
+#: framework/types/sliders.php:44
+msgid "Slider group"
+msgstr ""
+
+#: framework/types/sliders.php:45
+msgid "Search Slider groups"
+msgstr ""
+
+#: framework/types/sliders.php:46
+msgid "All Slider groups"
+msgstr ""
+
+#: framework/types/sliders.php:47
+msgid "Parent Slider group"
+msgstr ""
+
+#: framework/types/sliders.php:48
+msgid "Parent Slider group:"
+msgstr ""
+
+#: framework/types/sliders.php:49
+msgid "Edit Slider group"
+msgstr ""
+
+#: framework/types/sliders.php:50
+msgid "Update Slider group"
+msgstr ""
+
+#: framework/types/sliders.php:51
+msgid "Add New Slider group"
+msgstr ""
+
+#: framework/types/sliders.php:52
+msgid "New Slider group"
+msgstr ""
+
+#: framework/types/testimonials.php:18 framework/types/testimonials.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: framework/types/testimonials.php:20 framework/types/testimonials.php:21
+msgid "Add New Testimonial"
+msgstr ""
+
+#: framework/types/testimonials.php:22
+msgid "Edit Testimonial"
+msgstr ""
+
+#: framework/types/testimonials.php:23
+msgid "New Testimonial"
+msgstr ""
+
+#: framework/types/testimonials.php:24
+msgid "View Testimonial"
+msgstr ""
+
+#: framework/types/testimonials.php:25
+msgid "Search Testimonials"
+msgstr ""
+
+#: framework/types/testimonials.php:26
+msgid "No Testimonials found"
+msgstr ""
+
+#: framework/types/testimonials.php:27
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: framework/types/testimonials.php:28
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: framework/types/testimonials.php:29
+msgid "Opal Testimonials"
+msgstr ""
+
+#: framework/types/video.php:20 framework/types/video.php:21
+msgid "Add New Video"
+msgstr ""
+
+#: framework/types/video.php:22
+msgid "Edit Video"
+msgstr ""
+
+#: framework/types/video.php:23
+msgid "New Video"
+msgstr ""
+
+#: framework/types/video.php:24
+msgid "View Video"
+msgstr ""
+
+#: framework/types/video.php:25
+msgid "Search Videos"
+msgstr ""
+
+#: framework/types/video.php:26
+msgid "No Videos found"
+msgstr ""
+
+#: framework/types/video.php:27
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: framework/types/video.php:28
+msgid "Parent Video:"
+msgstr ""
+
+#: framework/types/video.php:29
+msgid "Opal Videos"
+msgstr ""
+
+#: sub/customfield/brands.php:3
+msgid "Link Brand"
+msgstr ""
+
+#: sub/customfield/page-advanced.php:27
+msgid "Use Global"
+msgstr ""
+
+#: sub/customfield/page-advanced.php:28 sub/vc_shortcodes/theme.php:72
+msgid "Skin 1"
+msgstr ""
+
+#: sub/customfield/page-advanced.php:29 sub/vc_shortcodes/theme.php:73
+msgid "Skin 2"
+msgstr ""
+
+#: sub/customfield/page-advanced.php:30
+msgid "Skin 3"
+msgstr ""
+
+#: sub/customfield/page.php:29 framework/admin/templates/options/page.php:29
+msgid "Fullwidth"
+msgstr ""
+
+#: sub/customfield/page.php:32 framework/admin/templates/options/page.php:32
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: sub/customfield/page.php:33 framework/admin/templates/options/page.php:33
+msgid "Left & Left Sidebar"
+msgstr ""
+
+#: sub/customfield/page.php:34 framework/admin/templates/options/page.php:34
+msgid "Right & Right Sidebar"
+msgstr ""
+
+#: sub/customfield/page.php:42 sub/customfield/page.php:52
+#: framework/admin/templates/options/page.php:42
+#: framework/admin/templates/options/page.php:52
+msgid "--Please Select Sidebar--"
+msgstr ""
+
+#: sub/functions/theme.php:53
+msgid "All"
+msgstr ""
+
+#: sub/functions/theme.php:97 sub/functions/woocommerce.php:93
+msgid "Previous"
+msgstr ""
+
+#: sub/functions/theme.php:97 sub/functions/woocommerce.php:93
+msgid "Next"
+msgstr ""
+
+#: sub/functions/theme.php:106 sub/functions/woocommerce.php:102
+#: woocommerce/loop/result-count.php:40
+#, php-format
+msgid "Showing the single result"
+msgstr ""
+
+#: sub/functions/theme.php:108 sub/functions/woocommerce.php:104
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: sub/functions/theme.php:110 sub/functions/woocommerce.php:106
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr ""
+
+#: sub/functions/theme.php:140
+msgid "Enter search..."
+msgstr ""
+
+#: sub/functions/woocommerce.php:40 sub/functions/woocommerce.php:44
+msgid "Add to wishlist"
+msgstr ""
+
+#: sub/functions/woocommerce.php:56
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: sub/functions/woocommerce.php:63
+msgid "View your shopping cart"
+msgstr ""
+
+#: sub/functions/woocommerce.php:121
+msgid "My Account"
+msgstr ""
+
+#: sub/functions/woocommerce.php:127 woocommerce/cart/mini-cart.php:96
+msgid "Checkout"
+msgstr ""
+
+#: sub/functions/woocommerce.php:133 woocommerce/widgets/widget-cart.php:24
+msgid "Cart"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:9
+msgid "WPO Vertical Menu"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:12 sub/vc_shortcodes/woocommerce.php:7
+msgid "WPO Elements"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:26
+msgid "Select menu."
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:30
+msgid "Position"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:37
+msgid "Postion Menu Vertical."
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:41 sub/vc_shortcodes/theme.php:79
+#: sub/vc_shortcodes/theme.php:118 sub/vc_shortcodes/theme.php:182
+#: sub/vc_shortcodes/woocommerce.php:18 sub/vc_shortcodes/woocommerce.php:100
+#: sub/vc_shortcodes/woocommerce.php:156 sub/vc_shortcodes/woocommerce.php:204
+#: sub/vc_shortcodes/woocommerce.php:240 sub/vc_shortcodes/woocommerce.php:315
+msgid "Extra class name"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:43 sub/vc_shortcodes/theme.php:81
+#: sub/vc_shortcodes/theme.php:120 sub/vc_shortcodes/theme.php:184
+#: sub/vc_shortcodes/woocommerce.php:20 sub/vc_shortcodes/woocommerce.php:102
+#: sub/vc_shortcodes/woocommerce.php:158 sub/vc_shortcodes/woocommerce.php:206
+#: sub/vc_shortcodes/woocommerce.php:242 sub/vc_shortcodes/woocommerce.php:317
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:52
+msgid "WPO Testimonials"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:55
+msgid "Play Testimonials In Carousel"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:57 sub/vc_shortcodes/theme.php:96
+#: sub/vc_shortcodes/theme.php:135 sub/vc_shortcodes/woocommerce.php:63
+#: sub/vc_shortcodes/woocommerce.php:117 sub/vc_shortcodes/woocommerce.php:171
+#: sub/vc_shortcodes/woocommerce.php:218 sub/vc_shortcodes/woocommerce.php:258
+msgid "Opal Widgets"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:69
+msgid "Skin"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:91
+msgid "WPO Brands Carousel"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:107 sub/vc_shortcodes/woocommerce.php:229
+msgid "Number of brands to show"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:132
+msgid "WPO Mega Blogs"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:136
+msgid "Create Post having blog styles"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:141
+msgid "Widget title"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:143
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:148
+msgid "Grids content"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:154
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:159
+msgid "Layout"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:161
+msgid "Default Style"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:161
+msgid "Special Style 1"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:161
+msgid "Special Style 2"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:167
+msgid "Grid Columns"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:176
+msgid "Thumbnail size"
+msgstr ""
+
+#: sub/vc_shortcodes/theme.php:178
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height) . "
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:4
+msgid "WPO Product Deals"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:40
+msgid "Carousel"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:47
+msgid "On Sale"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:48
+msgid "Recent Review"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:52
+#: sub/vc_shortcodes/class/all_products.php:20
+msgid "Latest Products"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:54
+#: sub/vc_shortcodes/class/all_products.php:26
+msgid "BestSeller Products"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:55
+msgid "TopRated Products"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:56
+#: sub/vc_shortcodes/class/all_products.php:28
+msgid "Special Products"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:60
+msgid "WPO Product Category"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:75 sub/vc_shortcodes/woocommerce.php:136
+#: sub/vc_shortcodes/woocommerce.php:308
+msgid "Style"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:91 sub/vc_shortcodes/woocommerce.php:132
+#: sub/vc_shortcodes/woocommerce.php:146 sub/vc_shortcodes/woocommerce.php:200
+msgid "Select columns count."
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:114
+msgid "WPO Products"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:168
+msgid "WPO Products Tabs"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:182
+msgid "Show Tab"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:184
+msgid "Control teasers look. Enable blocks and place them in desired order."
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:215
+msgid "WPO Brands"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:253
+msgid "WPO Reassuarence"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:257
+msgid "Counting number with your term"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:271
+msgid "FontAwsome Icon"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:274
+msgid "This support display icon from FontAwsome, Please click"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:276
+msgid "here to see the list"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:282
+msgid "If you upload an image, icon will not show."
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:285
+msgid "Image"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:290
+msgid "Short Information"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:293 sub/vc_shortcodes/woocommerce.php:302
+msgid "Allow  put html tags"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:299
+msgid "Detail Information"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:310
+msgid "Circle"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:310
+msgid "Vertical"
+msgstr ""
+
+#: sub/vc_shortcodes/woocommerce.php:310
+msgid "Horizontal"
+msgstr ""
+
+#: templates/blog/blog.php:121 templates/masonry/masonry.php:75
+#: templates/portfolio/portfolio.php:75 templates/post/_single.php:10
+#: templates/single/single.php:88
+msgid " 0 comment"
+msgstr ""
+
+#: templates/blog/blog.php:121 templates/masonry/masonry.php:75
+#: templates/portfolio/portfolio.php:75 templates/post/_single.php:10
+#: templates/single/single.php:88
+msgid " 1 comment"
+msgstr ""
+
+#: templates/blog/blog.php:121 templates/masonry/masonry.php:75
+#: templates/portfolio/portfolio.php:75 templates/post/_single.php:10
+#: templates/single/single.php:88
+#, php-format
+msgid " % comments"
+msgstr ""
+
+#: templates/blog/blog.php:127 templates/masonry/masonry.php:81
+#: templates/portfolio/portfolio.php:81 templates/post/_single.php:16
+#: templates/single/single.php:94
+msgid "Tags: "
+msgstr ""
+
+#: templates/blog/blog.php:132 templates/masonry/masonry.php:89
+#: templates/portfolio/portfolio.php:89
+msgid "read more"
+msgstr ""
+
+#: templates/shortcodes/blog_tab.php:60
+#: framework/shortcodes/tpl/blog_tab.php:64
+msgid " 0 "
+msgstr ""
+
+#: templates/shortcodes/blog_tab.php:60
+#: framework/shortcodes/tpl/blog_tab.php:64
+msgid " 1 "
+msgstr ""
+
+#: templates/shortcodes/blog_tab.php:60
+#: framework/shortcodes/tpl/blog_tab.php:64
+msgid " % "
+msgstr ""
+
+#: templates/single/single.php:106
+msgid "Share this Post!"
+msgstr ""
+
+#: vc_templates/post_block/_item.php:18
+msgid "Read more..."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:32
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26 woocommerce/cart/mini-cart.php:90
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:48
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:80 woocommerce/cart/cart.php:43
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:94
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:97
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:40 woocommerce/checkout/form-pay.php:29
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:41
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:42
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:64 woocommerce/cart/mini-cart.php:52
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:95
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:27
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:32
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:49
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:82
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:95
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:34
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:40
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:57
+#: woocommerce/cart/shipping-calculator.php:63
+#: woocommerce/cart/shipping-calculator.php:75
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:64
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:92
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:97
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:67
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:31
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:62
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:17
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:17
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:73
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:81
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/global/form-login.php:28
+#: woocommerce/myaccount/form-lost-password.php:34
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:34 woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:88
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:44 woocommerce/myaccount/form-login.php:25
+#: woocommerce/myaccount/form-login.php:44
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:49 woocommerce/myaccount/form-login.php:49
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:54
+msgid "Lost your password?"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:67
+#: woocommerce/myaccount/form-login.php:100
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:76
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:83
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:93
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:43
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:57
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:57
+#: framework/classes/core/shortcodebase.php:125
+#: framework/admin/templates/megamenu/editor-vertical.php:70
+#: framework/admin/templates/megamenu/editor.php:72
+msgid "Save"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:32
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:32
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:36
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:46
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:41
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:50
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:49
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav.php:91
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: woocommerce/widgets/widget-product-categories.php:139
+msgid "No product categories exist."
+msgstr ""
+
+#: woocommerce/widgets/widget-product-search.php:37
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/widgets/widget-product-search.php:39
+msgid "Search for products"
+msgstr ""
+
+#: woocommerce/widgets/widget-recent-reviews.php:64
+#, php-format
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:79
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/classes/core/megamenu-config.php:83
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:107
+msgid "Move up"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:120
+msgid "Move down"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:122
+#: framework/classes/core/megamenu-config.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:133
+msgid "URL"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:191
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:204
+#: framework/classes/core/shortcodebase.php:186
+msgid "Remove"
+msgstr ""
+
+#: framework/classes/core/megamenu-config.php:205
+msgid "Cancel"
+msgstr ""
+
+#: framework/classes/core/options.php:44
+msgid "General"
+msgstr ""
+
+#: framework/classes/core/options.php:48
+msgid "Logo"
+msgstr ""
+
+#: framework/classes/core/options.php:55
+msgid "Default Theme"
+msgstr ""
+
+#: framework/classes/core/options.php:70
+msgid "404 text"
+msgstr ""
+
+#: framework/classes/core/options.php:77
+msgid "Copyright"
+msgstr ""
+
+#: framework/classes/core/options.php:88
+msgid "Blog Post"
+msgstr ""
+
+#: framework/classes/core/options.php:93
+msgid "Images for layout."
+msgstr ""
+
+#: framework/classes/core/options.php:124
+msgid "Show Title"
+msgstr ""
+
+#: framework/classes/core/options.php:139
+msgid "Social Setting "
+msgstr ""
+
+#: framework/classes/core/options.php:143
+msgid "Facebook"
+msgstr ""
+
+#: framework/classes/core/options.php:144
+msgid "Check the box to show the facebook sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:150
+msgid "Twitter"
+msgstr ""
+
+#: framework/classes/core/options.php:151
+msgid "Check the box to show the twitter sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:157
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/classes/core/options.php:158
+msgid "Check the box to show the linkedin sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:164
+msgid "Google Plus"
+msgstr ""
+
+#: framework/classes/core/options.php:165
+msgid "Check the box to show the g+ sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:171
+msgid "Tumblr"
+msgstr ""
+
+#: framework/classes/core/options.php:172
+msgid "Check the box to show the tumblr sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:178
+msgid "Pinterest"
+msgstr ""
+
+#: framework/classes/core/options.php:179
+msgid "Check the box to show the pinterest sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:186
+msgid "Check the box to show the email sharing icon in blog posts."
+msgstr ""
+
+#: framework/classes/core/options.php:195
+msgid "SEO Option"
+msgstr ""
+
+#: framework/classes/core/options.php:199
+msgid "Enable SEO"
+msgstr ""
+
+#: framework/classes/core/options.php:200
+msgid "Check the box to enable the SEO options."
+msgstr ""
+
+#: framework/classes/core/options.php:206
+msgid "SEO Keywords"
+msgstr ""
+
+#: framework/classes/core/options.php:207
+msgid ""
+"Paste your SEO Keywords. This will be added into the meta tag keywords in "
+"header."
+msgstr ""
+
+#: framework/classes/core/options.php:213
+msgid "SEO Description"
+msgstr ""
+
+#: framework/classes/core/options.php:214
+msgid ""
+"Paste your SEO Description. This will be added into the meta tag description "
+"in header."
+msgstr ""
+
+#: framework/classes/core/options.php:220
+msgid "Google Analytics Account ID"
+msgstr ""
+
+#: framework/classes/core/options.php:221
+msgid ""
+"Type your Google Analytics Account ID here. This will be added into the "
+"footer template of your theme."
+msgstr ""
+
+#: framework/classes/core/options.php:230
+msgid "Customization"
+msgstr ""
+
+#: framework/classes/core/options.php:234
+msgid "Live Tools Customizing Theme"
+msgstr ""
+
+#: framework/classes/core/options.php:235
+msgid "Live Customizing Theme"
+msgstr ""
+
+#: framework/classes/core/options.php:243
+msgid "Before CSS </body>"
+msgstr ""
+
+#: framework/classes/core/options.php:244
+msgid "Before CSS </body> description."
+msgstr ""
+
+#: framework/classes/core/options.php:250
+msgid "Before JS </body>"
+msgstr ""
+
+#: framework/classes/core/options.php:251
+msgid "Before JS </body> description."
+msgstr ""
+
+#: framework/classes/core/options.php:260
+msgid "Megamenu"
+msgstr ""
+
+#: framework/classes/core/options.php:270
+msgid "menu"
+msgstr ""
+
+#: framework/classes/core/options.php:271
+msgid ""
+"Select a menu to configure Megamenu for the menu items in the selected menu."
+msgstr ""
+
+#: framework/classes/core/options.php:279
+#: framework/classes/core/options.php:300
+msgid "Animation"
+msgstr ""
+
+#: framework/classes/core/options.php:280
+msgid "Select animation for Megamenu."
+msgstr ""
+
+#: framework/classes/core/options.php:293
+msgid "Duration"
+msgstr ""
+
+#: framework/classes/core/options.php:294
+msgid "Animation effect duration for dropdown of Megamenu (in miliseconds)"
+msgstr ""
+
+#: framework/classes/core/options.php:301
+msgid "Sidebar transition effect for Off-canvas menu"
+msgstr ""
+
+#: framework/classes/core/options.php:323
+msgid "Menu Vertical"
+msgstr ""
+
+#: framework/classes/core/options.php:324
+msgid ""
+"Select a menu to configure Megamenu Vertical for the menu items in the "
+"selected menu."
+msgstr ""
+
+#: framework/classes/core/options.php:338
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/classes/core/options.php:342
+msgid "Number of Product per page"
+msgstr ""
+
+#: framework/classes/core/options.php:350
+msgid "Show number Products"
+msgstr ""
+
+#: framework/classes/core/options.php:358
+msgid "Number of Product per row"
+msgstr ""
+
+#: framework/classes/core/options.php:371
+msgid "Enable Quick View"
+msgstr ""
+
+#: framework/classes/core/options.php:372
+msgid "Check the box to enable Quick View button."
+msgstr ""
+
+#: framework/classes/core/options.php:378
+msgid "Enable Effect Image"
+msgstr ""
+
+#: framework/classes/core/options.php:379
+msgid "Check the box to enable swap effect image product."
+msgstr ""
+
+#: framework/classes/core/options.php:385
+msgid "Layout Archive Product"
+msgstr ""
+
+#: framework/classes/core/options.php:386
+msgid "Display your sidebar like image on Archive pages."
+msgstr ""
+
+#: framework/classes/core/options.php:414
+msgid "Layout Single Product"
+msgstr ""
+
+#: framework/classes/core/options.php:415
+msgid "Display your sidebar like image on Single page."
+msgstr ""
+
+#: framework/classes/core/pagebuilder.php:77
+msgid "Top to bottom"
+msgstr ""
+
+#: framework/classes/core/pagebuilder.php:78
+msgid "Bottom to top"
+msgstr ""
+
+#: framework/classes/core/pagebuilder.php:79
+msgid "Left to right"
+msgstr ""
+
+#: framework/classes/core/pagebuilder.php:80
+msgid "Right to left"
+msgstr ""
+
+#: framework/classes/core/pagebuilder.php:81
+msgid "Appear from center"
+msgstr ""
+
+#: framework/classes/core/params.php:55
+msgid "Select A Sidebar"
+msgstr ""
+
+#: framework/classes/core/params.php:118
+msgid "Find"
+msgstr ""
+
+#: framework/classes/core/params.php:123
+msgid "Latitude"
+msgstr ""
+
+#: framework/classes/core/params.php:127
+msgid "Longitude"
+msgstr ""
+
+#: framework/classes/core/shortcodebase.php:126
+msgid "Back to list"
+msgstr ""
+
+#: framework/classes/core/shortcodebase.php:181
+msgid "No file chosen"
+msgstr ""
+
+#: framework/classes/core/shortcodebase.php:184
+msgid "Upload"
+msgstr ""
+
+#: framework/classes/core/shortcodebase.php:189
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/facebook_like/facebook_like.php:21
+msgid "WPO Facebook Like Box"
+msgstr ""
+
+#: framework/widgets/facebook_like/facebook_like.php:23
+msgid "Adds support for Facebook Like Box. "
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/featured_post/featured_post.php:23
+msgid "WPO Featured Post Widget"
+msgstr ""
+
+#: framework/widgets/featured_post/featured_post.php:66
+#: framework/widgets/recent_post/recent_post.php:60
+msgid "Type:"
+msgstr ""
+
+#: framework/widgets/featured_post/featured_post.php:78
+#: framework/widgets/top_rate/top_rate.php:122
+#: framework/widgets/twitter/twitter.php:140
+msgid "Limit:"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/flickr/flickr.php:21
+msgid "WPO Flickr"
+msgstr ""
+
+#: framework/widgets/flickr/flickr.php:23
+msgid "The most recent photos from flickr."
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/menu_vertical/menu_vertical.php:21
+msgid "WPO Menu Vertical Widget"
+msgstr ""
+
+#: framework/widgets/menu_vertical/menu_vertical.php:23
+msgid "Show Menu Vertical"
+msgstr ""
+
+#: framework/widgets/menu_vertical/menu_vertical.php:50
+#: framework/widgets/posts/posts.php:50
+#: framework/widgets/recent_comment/recent_comment.php:52
+#: framework/widgets/recent_post/recent_post.php:46
+#: framework/widgets/twitter/twitter.php:132
+msgid "Title:"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/posts/posts.php:21
+msgid "WPO Posts Widget"
+msgstr ""
+
+#: framework/widgets/posts/posts.php:64
+msgid "Posts:"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/recent_comment/recent_comment.php:21
+msgid "WPO Recent Comments Widget"
+msgstr ""
+
+#: framework/widgets/recent_comment/recent_comment.php:23
+msgid "Show list of recent comments"
+msgstr ""
+
+#: framework/widgets/recent_comment/recent_comment.php:41
+msgid "Latest Post"
+msgstr ""
+
+#: framework/widgets/recent_comment/recent_comment.php:65
+msgid "Num Comments:"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/recent_post/recent_post.php:21
+msgid "WPO Recent Posts Widget"
+msgstr ""
+
+#: framework/widgets/recent_post/recent_post.php:23
+msgid "Show list of recent post"
+msgstr ""
+
+#: framework/widgets/recent_post/recent_post.php:72
+msgid "Num Posts:"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/sliders/sliders.php:23
+msgid "WPO Sliders Widget"
+msgstr ""
+
+#: framework/widgets/sliders/sliders.php:25
+msgid "Adds support Slider. "
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/tabs/tabs.php:21
+msgid "WPO Tabs Widget"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:23
+msgid "Popular posts, recent post and comments."
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:51
+msgid "Template Style:"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:60
+msgid "Popular Posts Order By:"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:62
+msgid " Highest Comments"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:63
+msgid "Highest Views"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:67
+msgid "Number of popular posts:"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:71
+msgid "Number of recent posts:"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:75
+msgid "Number of comments:"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:80
+msgid "Show popular posts"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:84
+msgid "Show recent posts"
+msgstr ""
+
+#: framework/widgets/tabs/tabs.php:88
+msgid "Show comments"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/top_rate/top_rate.php:23
+msgid "WPO Top Rate Widget"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:25
+msgid "The highest rated posts on your site"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:35
+#: sub/vc_shortcodes/class/all_products.php:24
+msgid "Top Rated"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:85
+msgid "Get most rated:"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:94
+msgid "Sort by:"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:96
+msgid "Overall bayesian rating (score)"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:97
+msgid "Average rating"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:98
+msgid "Number of votes"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:105
+msgid "Descending"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:110
+msgid "Ascending"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:115
+msgid "Ignore posts older than:"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:116
+msgid "days"
+msgstr ""
+
+#: framework/widgets/top_rate/top_rate.php:118
+msgid "(0 to ignore date)"
+msgstr ""
+
+#. Widget name will appear in UI
+#: framework/widgets/twitter/twitter.php:22
+msgid "WPO Latest Twitter"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:24
+msgid "Latest Twitter widget."
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:107
+msgid "Latest tweets."
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:108
+msgid "Leotheme"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:136
+msgid "Twitter Username:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:144
+msgid "Twitter Id:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:148
+msgid "Border Color:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:153
+msgid "Link Color:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:158
+msgid "Text Color:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:163
+msgid "Name Color:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:168
+msgid "Mail Color:"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:173
+msgid "Show background"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:182
+msgid "Show Replies"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:191
+msgid "Show Header"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:200
+msgid "Show Footer"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:209
+msgid "Show Border"
+msgstr ""
+
+#: framework/widgets/twitter/twitter.php:218
+msgid "Show Scrollbar"
+msgstr ""
+
+#: sub/vc_shortcodes/class/all_products.php:20
+msgid "Latest"
+msgstr ""
+
+#: sub/vc_shortcodes/class/all_products.php:22
+msgid "Featured"
+msgstr ""
+
+#: sub/vc_shortcodes/class/all_products.php:24
+msgid "Top Rated Products"
+msgstr ""
+
+#: sub/vc_shortcodes/class/all_products.php:26
+msgid "BestSeller"
+msgstr ""
+
+#: sub/vc_shortcodes/class/all_products.php:28
+msgid "Special"
+msgstr ""
+
+#: templates/widgets/featured_post/default.php:37
+#: templates/widgets/posts/default.php:42
+#: templates/widgets/recent_post/default.php:47
+#: templates/widgets/tabs/default.php:39 templates/widgets/tabs/default.php:73
+#: framework/widgets/featured_post/tpl/default.php:35
+#: framework/widgets/posts/tpl/default.php:40
+#: framework/widgets/recent_post/tpl/default.php:44
+#: framework/widgets/tabs/tpl/default.php:38
+#: framework/widgets/tabs/tpl/default.php:68
+msgid "Posted: "
+msgstr ""
+
+#: templates/widgets/recent_comment/default.php:34
+#: templates/widgets/tabs/default.php:103
+#: framework/widgets/recent_comment/tpl/default.php:33
+#: framework/widgets/tabs/tpl/default.php:92
+msgid "says"
+msgstr ""
+
+#: templates/widgets/tabs/default.php:4
+#: framework/widgets/tabs/tpl/default.php:4
+msgid "Popular"
+msgstr ""
+
+#: templates/widgets/tabs/default.php:9
+#: framework/widgets/tabs/tpl/default.php:9
+msgid "Recent"
+msgstr ""
+
+#: templates/widgets/tabs/default.php:14
+#: framework/widgets/tabs/tpl/default.php:14
+msgid "Comments"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:45
+#: framework/admin/templates/livetheme/editor.php:146
+#: framework/admin/templates/livetheme/editor.php:152
+msgid "Clear"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:6
+#: framework/admin/templates/livetheme/editor.php:50
+msgid "Pattern Manager"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:12
+#: framework/admin/templates/megamenu/editor-vertical.php:50
+#: framework/admin/templates/megamenu/editor-vertical.php:107
+#: framework/admin/templates/megamenu/editor-vertical.php:183
+#: framework/admin/templates/megamenu/editor-vertical.php:214
+#: framework/admin/templates/megamenu/editor.php:44
+#: framework/admin/templates/megamenu/editor.php:52
+#: framework/admin/templates/megamenu/editor.php:109
+#: framework/admin/templates/megamenu/editor.php:161
+#: framework/admin/templates/megamenu/editor.php:192
+msgid "Close"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:25
+msgid "Theme"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:36
+#: framework/admin/templates/megamenu/editor-vertical.php:72
+#: framework/admin/templates/megamenu/editor.php:74
+msgid "Back"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:47
+#: framework/admin/templates/megamenu/editor-vertical.php:96
+#: framework/admin/templates/megamenu/editor.php:98
+msgid "Delete"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:59
+msgid "Css Profiles:"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:69
+msgid "And Named This: "
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:70
+msgid "And Rename To:"
+msgstr ""
+
+#: framework/admin/templates/livetheme/editor.php:127
+msgid "Those Images in folder YOURTHEME/images/bg/"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:23
+#: framework/admin/templates/megamenu/editor.php:25
+msgid "MegaMenu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:24
+#: framework/admin/templates/megamenu/editor.php:26
+msgid "Manage Widgets"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:33
+#: framework/admin/templates/megamenu/editor.php:35
+msgid "Widget Management"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:50
+#: framework/admin/templates/megamenu/editor.php:52
+msgid "Widget Setting"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:57
+#: framework/admin/templates/megamenu/editor.php:59
+msgid "Insert"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:58
+#: framework/admin/templates/megamenu/editor-vertical.php:67
+#: framework/admin/templates/megamenu/editor.php:60
+#: framework/admin/templates/megamenu/editor.php:69
+msgid "Add Widget"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:68
+#: framework/admin/templates/megamenu/editor.php:70
+msgid "Preview"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:69
+#: framework/admin/templates/megamenu/editor.php:71
+msgid "Reset Megamenu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:83
+#: framework/admin/templates/megamenu/editor.php:85
+msgid "Wiget Name"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:85
+#: framework/admin/templates/megamenu/editor.php:87
+msgid "Action"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:94
+#: framework/admin/templates/megamenu/editor.php:96
+msgid "Edit"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:96
+#: framework/admin/templates/megamenu/editor.php:98
+msgid "Are You Sure ?"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:107
+#: framework/admin/templates/megamenu/editor.php:109
+msgid "Sub Menu Setting"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:114
+#: framework/admin/templates/megamenu/editor.php:116
+msgid "Create Sub Menu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:124
+#: framework/admin/templates/megamenu/editor.php:126
+msgid "Width Submenu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:142
+msgid "background Image"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:148
+msgid "background CSS"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:154
+#: framework/admin/templates/megamenu/editor.php:132
+msgid "Alignment"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:167
+#: framework/admin/templates/megamenu/editor.php:145
+msgid "Add Row"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:168
+#: framework/admin/templates/megamenu/editor.php:146
+msgid "Remove Row"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:169
+#: framework/admin/templates/megamenu/editor.php:147
+msgid "Add Column"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:183
+#: framework/admin/templates/megamenu/editor.php:161
+msgid "Column Setting"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:194
+msgid "Column Width"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:204
+#: framework/admin/templates/megamenu/editor.php:182
+msgid "Remove Column"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:214
+#: framework/admin/templates/megamenu/editor.php:192
+msgid "Setting Sub Menu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:221
+#: framework/admin/templates/megamenu/editor.php:199
+msgid "Group Submenu"
+msgstr ""
+
+#: framework/admin/templates/megamenu/editor-vertical.php:239
+#: framework/admin/templates/megamenu/editor.php:217
+msgid "60% Complete"
+msgstr ""
+
+#. Name of the theme
+msgid "Pharmacy"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"The Pharmacy theme for WordPress by <a href=\"http://bit.ly/opalwp\">"
+"OpalTeam</a>is a fully responsive theme that looks great on any device. "
+"That's the best for any kind of online shoping sites. <a href=\"http://bit."
+"ly/opalwp\">Follow us on Themeforest to receive newest updates</a>"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://bit.ly/opalwp"
+msgstr ""
+
+#. Author of the theme
+msgid "the WPOpal team"
+msgstr ""

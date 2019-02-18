@@ -1,0 +1,33 @@
+/*Font Awesome*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$theme-font-path}fontawesome-webfont.eot?v=#{$fa-version}');
+  src: url('#{$theme-font-path}fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+       url('#{$theme-font-path}fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg'),
+       url('#{$theme-font-path}fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
+       url('#{$theme-font-path}fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype');
+}
+@font-face {
+  font-family: 'GalaxiePolarisLight';
+  src: url('#{$theme-font-path}polaris_v2_light.eot');
+  src: url('#{$theme-font-path}polaris_v2_light.eot') format('embedded-opentype'),
+  url('#{$theme-font-path}polaris_v2_light.woff') format('woff'),
+  url('#{$theme-font-path}polaris_v2_light.ttf') format('truetype'),
+  url('#{$theme-font-path}polaris_v2_light.svg#GalaxiePolarisLight') format('svg');
+}
+@font-face {
+  font-family: 'GalaxiePolarisHeavy';
+  src: url('#{$theme-font-path}polaris_v2_heavy.eot');
+  src: url('#{$theme-font-path}polaris_v2_heavy.eot') format('embedded-opentype'),
+  url('#{$theme-font-path}polaris_v2_heavy.woff') format('woff'),
+  url('#{$theme-font-path}polaris_v2_heavy.ttf') format('truetype'),
+  url('#{$theme-font-path}polaris_v2_heavy.svg#GalaxiePolarisHeavy') format('svg');
+}
+@font-face {
+  font-family: 'GalaxiePolarisBook';
+  src: url('#{$theme-font-path}polaris_v2_book.eot');
+  src: url('#{$theme-font-path}polaris_v2_book.eot') format('embedded-opentype'),
+  url('#{$theme-font-path}polaris_v2_book.woff') format('woff'),
+  url('#{$theme-font-path}polaris_v2_book.ttf') format('truetype'),
+  url('#{$theme-font-path}polaris_v2_book.svg#GalaxiePolarisBook') format('svg');
+}

@@ -1,0 +1,63 @@
+$entry-font-size: 36px !default;
+$entry-font-family:         $font-family-primary ;
+$entry-author-font-size     :20px !default;
+// Post
+// -------------------------
+$post-bg                    :#fff !default;
+$post-title-font-size       :12px !default;
+$post-share-margin          :10px !default;
+$post-share-icon-color      :$very-dark-gray !default;
+$post-share-icon-margin     :$theme-margin !default;
+$post-share-icon-size       :16px !default;
+$post-author-avatar-margin  :$theme-margin/4 !default;
+
+// Blog
+// -------------------------
+$blog-bg:                           $black !default;
+$blog-title-color:                  #fff !default;
+$blog-title-font-size:              12px !default;
+$blog-title-font-weight:            400 !default;
+$blog-title-font-family:            $font-family-septenary !default;
+$blog-title-line-height:            2 !default;
+$blog-title-transform:              uppercase !default;
+$blog-date-bg:                      transparent !default;
+$blog-date-size:                    10px !default;
+$blog-date-color:                   #aaa !default;
+$blog-date-transform:               uppercase !default;
+$blog-date-font-size:               10px !default;
+// page blog
+//---------------------------
+$blog-page-title-font-size      : 20px !default;
+// Comment
+// -------------------------
+$comment-list-border-color      :#e7e6e6 !default;
+$comment-list-padding           :$theme-padding*1.25 !default;
+$comment-list-margin            :$theme-margin*1.25 !default;
+$comment-list-avatar-margin     :$theme-margin*0.75 !default;
+$comment-list-author-margin     :5px !default;
+$comment-list-children-padding  :$theme-padding*2 !default;
+
+// Widget post
+// -------------------------
+$widget-post-meta-font-size     :14px !default;
+$widget-post-margin             :$theme-margin/4 !default;
+
+// Widget tags cloud
+// -------------------------
+$widget-tag-color               :$link-color !default;
+$widget-tag-color-hover         :$white !default;
+$widget-tag-bg                  : #fff !default;
+$widget-tag-bg-hover            :$theme-color !default;
+$widget-tag-font-size           :13px !important;
+$widget-tag-padding             :5px 10px !default;
+$widget-tag-margin              :2px 0 !default;
+$widget-tag-border-color        :$border-color !default;
+$widget-tag-border-color-hover  :$widget-tag-bg-hover !default;
+
+// Widget tags cloud
+// -------------------------
+$widget-post-bg                 :$black !default;
+$widget-post-title-font-size    :12px !default;
+$widget-post-title-color        :#fff !default;
+$widget-post-linke-color        :$theme-color !default;
+

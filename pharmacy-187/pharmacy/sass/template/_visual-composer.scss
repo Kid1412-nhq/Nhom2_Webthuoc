@@ -1,0 +1,180 @@
+/* Visual Composer  */
+
+/* Heading , title, and description
+// -------------------------------------------*/
+.visual-title{
+    &:before{
+        background: $visual-title-before-bg;
+    }
+    margin-bottom: 0 !important;
+}
+.visual-description{
+    display: block;
+    margin: $visual-description-margin;
+    font-size: $visual-description;
+    color: $visual-description-color;
+    font-family: $font-family-primary;
+}
+
+[class*="col-"] > .wpb_wrapper > *{
+  background: #fff;
+}
+/* Container, Box, layout
+// -------------------------------------------*/
+.wpb-container{
+    background:$body-bg ;
+    &:last-child{
+        .wpb-inner{
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* Slider Revolution
+// -------------------------------------------*/
+.wpb_revslider_element{
+    @include box-shadow(6px 6px 6px rgba($black, 0.9) inset);
+}
+
+/* WPO - Product (feature home page)
+// -------------------------------------------*/
+.wpo-thumb-list{
+    color: $light-gray;
+    font-family: $font-family-septenary;
+    .media-heading{
+        color: $white;
+        font-style: normal;
+    }
+    .pull-left{
+        @include rtl-margin-right($theme-margin);
+    }
+    .red{
+        color: $red;
+    }
+    .blue{
+        color: lighten($blue, 15%);
+    }
+    .orange{
+        color: $orange;
+    }
+}
+
+
+/* WPO - Ourservice
+// -------------------------------------------*/
+.wpo-ourservice{
+    .ourservice-heading{
+        @include clearfix();
+    }
+}
+
+
+/* Custom Layout Visual Composer
+// -------------------------------------------*/
+.wpb_row,
+ul.wpb_thumbnails-fluid > li,
+.last_toggle_el_margin, .wpb_button{
+    margin-bottom: $box-margin !important;
+}
+.wpb_content_element{
+    margin-bottom: 0 !important;
+}
+
+
+
+/*-------------------------------------------
+    Testimonial
+-------------------------------------------*/
+.wpo-testimonial{
+    color: #fff;
+    .description{
+        margin: 0 auto 30px;
+        min-height: 90px;
+        @include size(58%,auto);
+        font-size: $testimonial-description-font-size;
+        font-family: $font-family-septenary;
+    }
+    .info{
+        p{
+            font-size: $testimonial-font-size;
+        }
+    }
+    &.skin-2{
+        .description{
+            @include size(auto,auto);
+            p{
+                margin: 0 0 5px;
+            }
+        }
+        .info{
+            width: percentage(1);
+            img{
+                display: inline-block;
+                vertical-align: middle;
+                @include size(68px,68px);
+                @include border-radius(percentage(.5));
+                border: 2px solid $yellow;
+            }
+        }
+        .carousel-indicators{
+            position: static;
+            margin: 0 auto 15px;
+        }
+    }
+}
+.testimonial-navigation{
+    margin: 0;
+    position: static;
+    @include size(auto,auto);
+    background: rgba($black, 0.5);
+    li{
+        margin: 0 -2px;
+        border: 0;
+        text-indent: inherit;
+        background: $black;
+        @include border-radius(0);
+        @include size($testimonial-image-size,$testimonial-image-size);
+        img{
+            position: relative;
+            @include opacity(0.5);
+            &:before{
+                position: absolute;
+                top: 0;
+                content: "";
+                background: rgba($black, 0.5);
+                @include rtl-left(0);
+                @include size(percentage(1),percentage(1));
+            }
+        }
+    }
+    .active {
+        @include size($testimonial-image-size,$testimonial-image-size);
+        img{
+            @include opacity(1);
+        }
+    }
+}
+
+/*------------------------------------*\
+    parallax - style
+\*------------------------------------*/
+
+.parallax{
+    background-attachment: fixed!important;
+    background-repeat: no-repeat!important;
+    background-position: 50% 0 !important;
+    margin-bottom: $theme-margin;
+    .parallax-inner{
+        background-color: lighten($parallax-bg,25%);
+        padding:$theme-padding/2;
+        .wpb_wrapper > *{
+            background-color: transparent;
+        }
+    }
+    .wpo-testimonial {
+        margin: 0 !important;
+    }
+    [class*="col-"] > .wpb_wrapper > *{
+        background: transparent;
+    }
+}

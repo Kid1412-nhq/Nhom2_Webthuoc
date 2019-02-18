@@ -1,0 +1,147 @@
+// Portfolio Page
+//----------------------------------
+#portfolio{
+	.portfolio-box{
+		.item{
+
+		}
+	}
+
+	.portfolio-filters{
+
+	}
+}
+
+.type-page{
+	p:empty{
+		margin: 0;
+	}
+}
+
+// Home Page
+//----------------------------------
+.page-space{
+    .wpo-content{
+        .wpb-container{
+            background: #fff;
+        }
+        > article{
+            padding: $theme-padding;
+            overflow: hidden;
+        }
+    }
+    .nav-product-title,
+    .visual-title{
+        @include rtl-margin-left(-$theme-margin);
+        border-top:1px solid $border-color;
+        width: 115%;
+    }
+    .widget{
+        .loop-posts {
+            margin-left: -$theme-padding/2;
+            margin-right: -$theme-padding/2;
+        }
+        .widget-content{
+            padding:$theme-padding 0;
+            &.slide,&.carousel,&.grid{
+                padding: $theme-padding 0 0;
+                margin-left: -$theme-padding/2;
+                margin-right: -$theme-padding/2;
+            }
+
+        }
+        .list{
+            .col-xs-12{
+                padding: 0;
+            }
+            .star-rating{
+                display: none;
+            }
+        }
+        .top_rate{
+            .star-rating{
+                display: block;
+            }
+        }
+    }
+}
+.default-home{
+    .wpb-container,
+    #wpo-content > *{
+        background: transparent;
+    }
+}
+// Contact Page
+//----------------------------------
+
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	margin-bottom: $theme-margin + 10;
+	min-height: 260px;
+	.rounded{
+		display: table;
+		color: $white;
+		text-align: $align-center;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			display: table-cell;
+			vertical-align: middle;
+			font-size: 16px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+.wpcf7-form{
+    margin-top: $theme-margin*2;
+}
+
+// Page Not Found
+//----------------------------------
+.page_not_found{
+	padding: $theme-padding;
+	.error-title{
+		font-size: 80px;
+		letter-spacing: 15px;
+		margin: 0;
+	}
+	.error-content{
+		line-height: 40px;
+		margin-bottom: 30px;
+	}
+	.page-footer{
+		p{
+			margin-bottom: 20px;
+		}
+	}
+}
+// component
+//----------------------------------
+.bs-component{
+  .modal{
+    bottom: auto;
+    display: block;
+    left: auto;
+    position: relative;
+    right: auto;
+    top: auto;
+    z-index: 1;
+  }
+  p:empty{
+    margin: 0;
+  }
+  br{
+    display: none;
+  }
+  .modal-dialog{
+    width: 90%;
+  }
+}

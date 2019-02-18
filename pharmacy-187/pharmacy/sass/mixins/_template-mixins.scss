@@ -1,0 +1,232 @@
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+}
+
+@mixin text-shadow($shadow) {
+	text-shadow: $shadow;
+	-webkit-text-shadow: $shadow;
+	-moz-text-shadow: $shadow;
+	-ms-text-shadow: $shadow;
+	-o-text-shadow: $shadow;
+}
+
+@mixin transform-origin($originX,$originY) {
+	-webkit-transform-origin: $originX $originY;
+	-moz-transform-origin: $originX $originY;
+	-ms-transform-origin: $originX $originY; // IE9 only
+	transform-origin: $originX $originY;
+}
+
+@mixin appearance() {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+@mixin filter($argument){
+	-ms-filter: $argument;
+	-webkit-filter: $argument;
+	-moz-filter: $argument;
+	-ms-filter: $argument;
+	-o-filter: $argument;
+	filter: $argument;
+}
+
+// Clear Box
+// -------------------------
+%clear-box{
+	padding: 0;
+	border: 0;
+}
+
+// Clear Lists
+// -------------------------
+@mixin clear-list{
+	padding: 0;
+	margin: 0;
+	li{
+	    list-style:none;
+	}
+}
+
+// Box Size
+// -------------------------
+@mixin box-size($background,$background-inner, $font-size, $border, $color, $link-color, $link-hover, $text-transform, $icon-color, $icon-font-size){
+	background: $background;
+	border: $border;
+	color: $color;
+	font-size: $font-size;
+	text-transform: $text-transform;
+	a{
+		color: $link-color;
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			color: $link-hover;
+		}
+	}
+	.fa,.icon{
+		color: $icon-color;
+		font-size: $icon-font-size;
+	}
+	.container-inner{
+		background: $background-inner;
+        &:after{
+            clear: both;
+            content: " ";
+            display: table;
+        }
+	}
+}
+
+@mixin button-outline($color,$hover-color, $background, $border,$hover-border, $background-hover, $icon-color, $icon-font-size) {
+	color: $color;
+	background-color: $background;
+	border-color: $border;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: $hover-color;
+		background-color: $background-hover;
+		border-color: $hover-border;
+        outline: none;
+	}
+	.fa,.icon{
+		color: $icon-color;
+		font-size: $icon-font-size;
+		@include rtl-margin(0,5px,0,0);
+	}
+}
+
+
+@mixin rounded-corners ($radius) {
+   -webkit-border-radius: $radius;
+   -moz-border-radius: $radius;
+   -ms-border-radius: $radius;
+   -o-border-radius: $radius;
+   border-radius: $radius;
+}
+
+
+@mixin button-variant-theme($color, $background, $border) {
+    color: $color;
+    background-color: $background;
+    border-color: $border;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        color: #fff;
+        background-color: $theme-color;
+        border-color: $theme-color;
+    }
+    &:active,
+    &.active,
+    .open > &.dropdown-toggle {
+        background-image: none;
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            background-color: $theme-color;
+            border-color: $theme-color;
+        }
+    }
+
+    .badge {
+        color: $background;
+        background-color: $color;
+    }
+}
+
+
+// Block
+// -------------------------
+@mixin block-variant($border, $heading-text-color, $heading-bg-color, $heading-border) {
+  border-color: $border;
+  background: $heading-bg-color;
+  & .#{$block-heading-selector} {
+    & span:before, & span:after{ background:$white; }
+    color: $heading-text-color;
+    background-color: $heading-bg-color;
+    border-color: $heading-border;
+    + .#{$block-prefix}-collapse .#{$block-content-selector} {
+      border-top-color: $border;
+    }
+  }
+  & > .#{$block-prefix}-footer {
+    + .#{$block-prefix}-collapse .#{$block-prefix}-body {
+      border-bottom-color: $border;
+    }
+  }
+}
+
+@mixin block-elements-styles($border, $heading-text-color, $heading-bg-color, $heading-border, $text-color, $text-color-primary){
+  border-color: $border;
+  background: $heading-bg-color;
+  & .#{$block-heading-selector} {
+    color: $heading-text-color;
+    background-color: $heading-bg-color;
+    border-color: $heading-border;
+    + .#{$block-prefix}-collapse .#{$block-content-selector} {
+      border-top-color: $border;
+    }
+  }
+  & > .#{$block-prefix}-footer {
+    + .#{$block-prefix}-collapse .#{$block-prefix}-body {
+      border-bottom-color: $border;
+    }
+  }
+}
+/****/
+@mixin container-layout-variant($color, $background, $linkcolor,  $topbar-link-color-hover ){
+    background: $background;
+    color: $color;
+    a{
+        color:$linkcolor;   
+    } 
+    a:hover{
+        color: $topbar-link-color-hover; 
+    }     
+}
+@mixin vertical-center() {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: 0 auto;
+}
+@mixin border($width,$style,$color){
+  border-width: $width;
+  border-style: $style;
+  border-color: $color;
+}
+@mixin make-grid-small-columns($i: 1, $list: ".col-xs-small-#{$i}, .col-sm-small-#{$i}, .col-md-small-#{$i}, .col-lg-small-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .col-xs-small-#{$i}, .col-sm-small-#{$i}, .col-md-small-#{$i}, .col-lg-small-#{$i}";
+  }
+  #{$list} {
+    position: relative;
+    // Prevent columns from collapsing when empty
+    min-height: 1px;
+    // Inner gutter via padding
+    padding-left:  ($grid-gutter-small-width / 2);
+    padding-right: ($grid-gutter-small-width / 2);
+  }
+}

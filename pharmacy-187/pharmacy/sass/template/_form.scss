@@ -1,0 +1,95 @@
+/*
+*  Form
+*/
+/* Button
+------------------------------------------------*/
+// btn-outline
+.btn-outline{
+	@include button-outline($btn-outline-color,$btn-outline-hover-color, $btn-outline-bg, $btn-outline-border-color,$btn-outline-border-hover-color,$btn-outline-hover-bg, $btn-outline-icon-color, $btn-outline-icon-font-size);
+    font-size: $btn-outline-font-size;
+    text-transform: uppercase;
+    @include transition(all 0.4s ease 0s);
+	&.hightlight{
+		border-color: $btn-outline-hightlight-border;
+		background: $btn-outline-hightlight-bg;
+		padding: $btn-outline-hightlight-padding;
+		font-size: $btn-outline-hightlight-font-size;
+		&:hover,
+		&:focus{
+			background: darken($btn-outline-hightlight-bg, 5%);
+			border-color: darken($btn-outline-hightlight-border, 5%);
+		}
+	}
+}
+.btn-outline-lg{
+    @include button-size($btn-outline-padding-lg-vertical, $btn-outline-padding-lg-horizontal, $btn-outline-font-lg-size, $btn-outline-line-lg, $btn-outline-border-lg-radius);
+}
+.btn-outline-xs{}
+.btn-outline-sm {
+	@include button-size($btn-outline-padding-sm-vertical, $btn-outline-padding-sm-horizontal, $btn-outline-font-sm-size, $btn-outline-line-sm, $btn-outline-border-sm-radius);
+}
+// btn-inverse
+.btn-inverse{
+	@include button-outline($btn-inverse-color,$btn-inverse-hover-color, $btn-inverse-bg, $btn-inverse-border,$btn-inverse-hover-border, $btn-inverse-hover-bg, $btn-inverse-icon-color, $btn-inverse-icon-font-size);
+    text-transform: uppercase;
+    @include transition(all 0.4s ease 0s);
+}
+.btn-inverse-lg{}
+.btn-inverse-sm{}
+.btn-inverse-xs{}
+
+/* Search
+------------------------------------------------*/
+.wpo-search{
+    width: 100%;
+    input.fa{
+        border: 0;
+        background: transparent;
+    }
+    .btn-search,
+    .input-search{
+        @include border-radius(0);
+        box-shadow: none;
+    }
+    .btn-search{
+        background: $white;
+        @include rtl-border-left(0);
+    }
+    .input-search{
+        @include rtl-border-right(0);
+        &:focus{
+            border-color: $border-color;
+        }
+    }
+}
+
+
+.chosen-container{
+	width: 100% !important;
+}
+label.select{
+	overflow: hidden;
+	width: 138px;
+	cursor: pointer;
+    margin: 0;
+    font-size: 10px;
+    @include box-shadow(none);
+	select{
+		@include appearance();
+        text-transform: uppercase;
+		width:150px;
+		border: 0;
+		cursor: pointer;
+		background: transparent url("#{$image-theme-path}arrow.png") no-repeat 75% center;
+        max-width: none;
+        padding: 0;
+		&:hover,&:focus,&:active{
+			outline: none;
+			@include box-shadow(none);
+            color: #000;
+		}
+	}
+    &:hover,&:focus,&:active{
+        border-color: #000;
+    }
+}

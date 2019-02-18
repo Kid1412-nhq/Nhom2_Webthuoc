@@ -1,0 +1,1031 @@
+/*Font WooCommerce*/
+
+@font-face {
+    font-family: 'star';
+    src:url('#{$woo-font-path}star.eot');
+    src:url('#{$woo-font-path}star.eot?#iefix') format('embedded-opentype'),
+        url('#{$woo-font-path}star.svg#star') format('svg'),
+        url('#{$woo-font-path}star.woff') format('woff'),
+        url('#{$woo-font-path}star.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WooCommerce';
+    src:url('#{$woo-font-path}WooCommerce.eot');
+    src:url('#{$woo-font-path}WooCommerce.eot?#iefix') format('embedded-opentype'),
+        url('#{$woo-font-path}WooCommerce.svg#WooCommerce') format('svg'),
+        url('#{$woo-font-path}WooCommerce.woff') format('woff'),
+        url('#{$woo-font-path}WooCommerce.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*-------------------------------------------
+    Price
+-------------------------------------------*/
+.price{
+  color: $red;
+  font-weight: 900;
+  ins{
+    text-decoration: none;
+  }
+  del{
+    color: $product-price-old-color;
+    font-family: $font-family-base;
+    font-weight: 400;
+  }
+  > span{
+    color: $product-price-color;
+  }
+}
+.name{
+  font-size: $product-name-font-size;
+  line-height: $product-name-line-height;
+  font-family: $product-name-font-family;
+  font-weight: normal;
+  margin:0 0 $theme-margin/2;
+}
+
+/* Wooecommerce - Button - Input
+------------------------------------------------*/
+.button,#submit {
+	position: relative;
+	display: inline-block;
+    @include rtl-margin-right(10px);
+	text-align: $align-center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border:1px solid $border-color;
+	white-space: nowrap;
+	text-transform: $btn-transform;
+	font-family: $btn-font-family;
+	@include user-select(none);
+	@include transition(all .4s ease 0s);
+	@include button-size($btn-padding-vertical, $btn-padding-horizontal, $btn-font-size, $btn-line-height, $btn-border-radius);
+	@include button-variant-theme($btn-outline-color, $btn-outline-bg, $btn-outline-border-color);
+    &:before{
+      content: "\f067";
+      font-family: "FontAwesome";
+      @include rtl-margin-right(5px);
+      color: #000;
+      @include rtl-float-left();
+    }
+    &:active,
+    &.active ,
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $btn-outline-hover-color;
+		background: $btn-outline-hover-bg;
+		border-color: $btn-outline-border-hover-color;
+        outline: 0;
+        &:before{
+        color:#fff;
+        }
+	}
+
+	&.loading {
+		&:before {
+			content: "";
+			@include vertical-center();
+			background: url(../images/ajax-loader.gif) center no-repeat transparent;
+		}
+	}
+
+	&.added {
+		.fa,.icon{
+			display: none;
+		}
+	}
+	&:disabled,
+	&.disabled {
+		color: lighten( $border-color, 30 );
+		border: 1px solid darken( $border-color, 10 );
+		background: $border-color;
+		cursor: not-allowed;
+		&:active {
+			top: 0;
+		}
+	}
+}
+
+/* End
+------------------------------------------------*/
+
+p.demo_store {
+	top: 0;
+	position:fixed;
+	@include rtl-left(0);
+	@include rtl-right(0);
+	@include size(percentage(1),auto);
+	@include rtl-text-align-center();
+	font-size: 1em;
+	padding: .5em 0;
+	z-index: 99998;
+	border: 1px solid darken($border-color, 10);
+	@include box-shadow(0, 0, 0, 3px, rgba($white,0.2));
+}
+.admin-bar {
+	p.demo_store {
+		top:28px;
+	}
+}
+
+/*------------------------------------*\
+    Utilities
+\*------------------------------------*/
+.wc-forward, .wc-forward a {
+    @extend  .button;
+    &:before{
+        display: none;
+    }
+	&:after {
+		content: "\f061";
+		font-family: $theme-font-name;
+		@include rtl-margin(0, 0, 0, 5px);
+	}
+}
+.wc-backward, .wc-backward a {
+	&:before {
+		content: "\f060";
+		font-family: $theme-font-name;
+		@include rtl-margin(0, 5px, 0, 0);
+	}
+}
+
+/*------------------------------------*\
+    woocommerce tabs
+\*------------------------------------*/
+.woocommerce-tabs{
+    border-bottom:1px solid $border-color;
+    padding: 15px;
+	.panel {
+		@include rtl-margin(0, 0, 2em, 0);
+		padding: 0;
+	}
+	.star-rating {
+		@include rtl-float-right();
+		&:before {
+			content: "\73\73\73\73\73";
+			color: darken($border-color, 10);
+			@include rtl-float-left();
+			@include rtl-left(0);
+			top: 0;
+			position: absolute;
+		}
+		span {
+			overflow: hidden;
+			@include rtl-float-left();
+			@include rtl-left(0);
+			top: 0;
+			position: absolute;
+			padding-top: 1.5em;
+			&:before {
+				content: "\53\53\53\53\53";
+				top: 0;
+				position: absolute;
+				@include rtl-left(0);
+			}
+		}
+	}
+
+	#reviews {
+		h2 small {
+			@include rtl-float-right();
+			line-height: 21px;
+			margin: 10px 0 0 0;
+			a {
+				text-decoration:none;
+			}
+		}
+		#comment {
+			height: 75px;
+		}
+		#comments {
+			.add_review {
+				@include clearfix();
+			}
+			ol.commentlist {
+				@include clearfix();
+				@include clear-list;
+				margin: 0;
+				width: 100%;
+				background:none;
+				list-style: none;
+				li {
+					padding: 0;
+					margin: 0 0 20px;
+					border: 0;
+					position: relative;
+					border: 0;
+					.meta {
+						font-size: 0.75em;
+					}
+					.comment-text {
+						border: 1px solid $border-color;
+						padding: 1em 1em 0;
+						@include clearfix();
+						p {
+							margin: 0 0 1em;
+						}
+						p.meta {
+							font-size: 0.83em;
+						}
+					}
+				}
+				ul.children {
+					list-style: none;
+					@include rtl-margin(20px, 0, 0, 50px);
+					.star-rating {
+						display: none;
+					}
+				}
+				#respond {
+					border: 1px solid darken($border-color, 3);
+					@include border-radius(4px);
+					@include rtl-padding(1em, 1em, 0, 0);
+					@include rtl-margin(20px, 0, 0, 50px);
+				}
+			}
+			.commentlist > li:before {
+				content: "";
+			}
+		}
+	}
+}
+
+#respond {
+	.form-submit {
+		input {
+			@include rtl-left(auto);
+		}
+	}
+	textarea {
+		@include box-sizing(border-box);
+	}
+	select{
+		display: block !important;
+	}
+	p.stars {
+		position: relative;
+		font-size: 1em;
+		padding: 6px 0;
+		a{
+			display: inline-block;
+			font-family: $font-family-secondary;
+            font-weight: 900;
+			text-indent: -9999px;
+			position: relative;
+			@include rtl-margin-right(1em);
+			&:last-child {
+				@include rtl-border-right(0);
+			}
+			&.star-1,
+			&.star-2,
+			&.star-3,
+			&.star-4,
+			&.star-5 {
+				@include rtl-border-right(1px solid $border-color);
+				&:after {
+					top: 0;
+					font-family: "WooCommerce";
+					text-indent: 0;
+					position: absolute;
+					@include rtl-left(0);
+				}
+			}
+
+			&.star-1 {
+				width: 2em;
+				&:after {
+					content: "\e021";
+				}
+				&:hover:after,
+				&.active:after {
+					content: "\e020";
+				}
+			}
+
+			&.star-2 {
+				width: 3em;
+				&:after {
+					content: "\e021\e021";
+				}
+				&:hover:after,
+				&.active:after {
+					content: "\e020\e020";
+				}
+			}
+
+			&.star-3 {
+				width: 4em;
+				&:after {
+					content: "\e021\e021\e021";
+				}
+				&:hover:after,
+				&.active:after {
+					content: "\e020\e020\e020";
+				}
+			}
+
+			&.star-4 {
+				width: 5em;
+				&:after {
+					content: "\e021\e021\e021\e021";
+				}
+				&:hover:after,
+				&.active:after {
+					content: "\e020\e020\e020\e020";
+				}
+			}
+
+			&.star-5 {
+				width: 6em;
+				border: 0;
+				&:after {
+					content: "\e021\e021\e021\e021\e021";
+				}
+				&:hover:after,
+				&.active:after {
+					content: "\e020\e020\e020\e020\e020";
+				}
+			}
+		}
+	}
+}
+
+/*------------------------------------*\
+    Quantity inputs
+\*------------------------------------*/
+.quantity {
+	width    : 60px;
+	position : relative;
+	margin   : 0 auto;
+	overflow : hidden;
+	zoom     : 1;
+	input.qty {
+		@include rtl-float-left();
+		@include size(40px,30px);
+		@include rtl-text-align-center();
+        border:1px solid $border-color;
+        color: #000;
+        font-family: $font-family-secondary;
+        font-weight: 900;
+        border-radius:    0;
+		padding         : 0;
+		font-weight     : bold;
+		-moz-appearance : textfield;
+		&:focus{
+			@include form-control-focus();
+		}
+	}
+	.plus, .minus {
+		display         : block;
+		padding         : 0;
+		margin          : 0;
+		position        : absolute;
+		vertical-align  : text-top;
+		text-decoration : none;
+		overflow        : visible;
+		text-decoration : none;
+		cursor          : pointer;
+		line-height     : 13px;
+		font-size       : 12px;
+		color           : $text-color;
+		border          : 1px solid darken($border-color, 3%);
+		@include rtl-text-align-center();
+		@include size(20px , 15px);
+		@include border-radius(2px);
+		@include box-shadow(inset 0 -1px 0 rgba($black,0.075),inset 0 1px 0 rgba($white,0.3),0 1px 2px rgba($black,0.1));
+		@include gradient-vertical($start-color: darken($border-color, 2%), $end-color: lighten($border-color, 2%), $start-percent: 0%, $end-percent: 100%);
+	}
+	.plus {
+		top: 0;
+		border-bottom: 0;
+		@include border-bottom-radius(0);
+		@include rtl-right(0);
+	}
+	.minus {
+		bottom: 0;
+		@include rtl-right(0);
+		@include border-top-radius(0);
+	}
+}
+
+/*------------------------------------*\
+    Forms
+\*------------------------------------*/
+.form-row {
+	@include clearfix();
+    label.hidden {
+        visibility:hidden;
+    }
+    label.inline {
+        display: inline;
+    }
+    label{
+    	display: block;
+    }
+    select {
+        cursor: pointer;
+    }
+    .required {
+        color: $red;
+        font-family: $font-family-secondary;
+        font-weight: 900;
+        border: 0;
+    }
+    .input-text{
+    	width: 100%;
+    }
+    &.form-row-first{
+    	width: 47%;
+    	@include rtl-float-left();
+    }
+    &.form-row-last{
+    	width: 47%;
+    	@include rtl-float-right();
+    }
+    &.form-row-wide{
+    	clear: both;
+    }
+}
+
+ul.tabs {
+	list-style:none;
+	padding: 0 0 0 1em;
+	margin: 0 0 1.618em;
+	overflow:hidden;
+	position: relative;
+	li {
+		display: inline-block;
+		position: relative;
+		z-index: 0;
+		margin: 0 -5px;
+		padding: 0 1em;
+		border: 1px solid darken( $border-color, 10 );
+		@include box-shadow(0 3px 3px rgba($black, 0.2), inset 0 1px 0 rgba($white,0.6));
+		a {
+			display: inline-block;
+			padding: .5em 0;
+			font-family: $font-family-secondary;
+            font-weight: 900;
+			color: $border-color;
+			text-decoration: none;
+			&:hover {
+				text-decoration:none;
+				color: lighten( $border-color, 10 );
+			}
+		}
+		&.active {
+			background: $border-color;
+			z-index: 2;
+			border-bottom-color: $border-color;
+			a {
+				color: inherit;
+				text-shadow: inherit;
+			}
+			&:before {
+				@include box-shadow(2px 2px 0 $border-color);
+			}
+			&:after {
+				@include box-shadow(-2px 2px 0 $border-color);
+			}
+		}
+		&:before, &:after {
+			border: 1px solid darken($border-color, 10);
+			position:absolute;
+			bottom: -1px;
+			content: "";
+			@include size(5px,5px);
+		}
+		&:before {
+			border-width: 0 1px 1px 0;
+			@include rtl-left(-6px);
+			@include border-right-radius(4px);
+			@include box-shadow(2px 2px 0 darken( $border-color, 10 ));
+		}
+		&:after {
+			border-width: 0 0 1px 1px;
+			@include rtl-right(-6px);
+			@include border-left-radius(4px);
+			@include box-shadow(-2px 2px 0 darken( $border-color, 10 ));
+		}
+	}
+	&:before {
+		position:absolute;
+		content: "";
+		width: percentage(1);
+		bottom: 0;
+		z-index: 1;
+		@include rtl-left(0);
+		border-bottom: 1px solid darken( $border-color, 10 );
+	}
+}
+
+.product-quantity{
+	.input-text{
+		@include input-size('.input-sm', $input-height-small, $padding-base-vertical, $padding-base-vertical, $font-size-small, $line-height-small, 0);
+	}
+}
+
+/*------------------------------------*\
+    Sale Label
+\*------------------------------------*/
+.label-sale{
+    @include rotate(43deg);
+    @include transform-origin(39px ,36px );
+	top: 0px;
+	right:0;
+	z-index: 999 !important;
+	text-align: $sale-label-align;
+	color: $sale-label-color;
+	background: $sale-label-bg;
+    font-family: $sale-label-font-family;
+	font-size: $sale-label-font-size;
+	padding: $sale-label-padding;
+	text-transform: $sale-label-transform;
+	position: absolute;
+}
+
+/*------------------------------------*\
+    Mini cart
+\*------------------------------------*/
+.mini-cart{
+	background: $mini-cart-bg;
+	font-size: $mini-cart-font-size;
+	padding: $mini-cart-padding;
+	font-family: $font-family-secondary;
+    font-weight: 900;
+	display: inline-block;
+	@include border-radius($mini-cart-rounded);
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: none;
+    }
+    .amount{
+        font-family: $font-family-base;
+        text-transform: lowercase;
+    }
+    &,
+    .fa{
+      color: $mini-cart-color !important;
+    }
+}
+
+/*------------------------------------*\
+    Star rating
+\*------------------------------------*/
+.star-rating {
+	overflow: hidden;
+	position: relative;
+    letter-spacing: 2px;
+	@include size(57px,12px);
+	line-height: 1em;
+	font-family: 'star';
+	font-size: $star-rating-font-size;
+	&:before {
+		content: "\73\73\73\73\73";
+		color: $star-rating-color;
+		@include rtl-float-left();
+		top: 0;
+		@include rtl-left(0);
+		position: absolute;
+	}
+	span {
+		overflow: hidden;
+		@include rtl-float-left();
+		top: 0;
+		@include rtl-left(0);
+		position: absolute;
+		padding-top: 1.5em;
+	}
+	span:before {
+		content: "\53\53\53\53\53";
+		top: 0;
+		position: absolute;
+		@include rtl-left(0);
+		color: $star-rating-active-color;
+	}
+}
+
+/*------------------------------------*\
+    Filter
+\*------------------------------------*/
+#wpo-filter{
+    border-radius:0;
+    margin-bottom: $filter-margin;
+    border-bottom: 1px solid $border-color;
+    padding: 15px;
+    .woocommerce-ordering{
+        line-height: 0;
+    }
+    > *{
+        margin-bottom: 0;
+    }
+    .display{
+        @include clearfix();
+        li{
+            @include rtl-float-left();
+            margin-right: $padding-small-vertical;
+            a{
+            	text-align: center;
+                text-decoration: none;
+                display: block;
+                color: lighten($black, 86%);
+                border: 1px solid $filter-border-color;
+                font-size: $filter-icon-font-size;
+                @include size(30px,30px);
+                .fa{
+                    font-size: 14px;
+                    line-height: 30px;
+                }
+                span{
+                	margin: 0;
+                    @include hide-text();
+                }
+                &:hover,
+                &.active,
+                &:active,
+                &:focus{
+                    color: $black;
+                    outline: 0;
+                }
+                &.active{
+                    cursor: default;
+                    outline: 0;
+                }
+                &.waiting{
+                    color: lighten($black, 86%);
+                    .fa{
+                        color: lighten($black, 86%);
+                    }
+                }
+            }
+            span{
+                display: inline-block;
+                vertical-align: baseline;
+            }
+        }
+    }
+}
+
+/*------------------------------------*\
+    Mini Cart
+\*------------------------------------*/
+.top-cart{
+	.dropdown{
+        @include rtl-float-right();
+		&.open{
+			.mini-cart:before{
+				content:"";
+				background:transparent;
+				position:absolute;
+				@include size(100%,200px);
+			}
+		}
+	}
+	.dropdown-menu{
+        text-align: inherit;
+		top: 57px;
+		min-width: 280px;
+        padding: 12px;
+        border-radius: 0;
+		display: block;
+		visibility: hidden;
+		@include rtl-text-align-left;
+		@include rtl-left(auto);
+		@include rtl-right(0);
+		@include box-sizing(border-box);
+		@include opacity(0);
+        @include scale(0);
+        //@include transition(all 300ms cubic-bezier(0.34, 1.61, 0.7, 1));
+		&:before,
+		&:after{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			@include rtl-left(100%);
+			@include rtl-margin-left(-26%);
+		}
+		&:before{
+			top: -11px;
+			border-bottom: 11px solid rgba($black, 0.2);
+			border-left: 11px solid rgba($black, 0);
+			border-right: 11px solid rgba($black, 0);
+		}
+		&:after{
+			top: -10px;
+			border-bottom: 11px solid $white;
+			border-left: 11px solid rgba($black, 0);
+			border-right: 11px solid rgba($black, 0);
+		}
+	}
+
+	.open{
+		.dropdown-menu{
+			@include scale(1);
+			@include opacity(1);
+			@include transform-origin(29px, -50px);
+			@include filter(none);
+			visibility: visible;
+		}
+	}
+	.btn{
+		color: #000;
+		&:hover{
+			color: $white;
+		}
+	}
+	.buttons{
+		margin-bottom: 0;
+	}
+}
+/*------------------------------------*\
+    Cart
+\*------------------------------------*/
+.cart_list{
+    .image{
+        @include size(70px,70px);
+    }
+    .cart-main-content{
+        @include rtl-text-align-left();
+    }
+    + .total{
+        @include rtl-text-align-right();
+        margin-top: 10px;
+    }
+}
+
+
+/** Plugins  add to wishlist, compare **/
+
+.place-order{
+	padding: $theme-margin;
+}
+.yith-wcwl-add-to-wishlist{
+	margin: 0;
+    position: relative;
+    .ajax-loading{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        margin-top:-8px ;
+        margin-left: -8px;
+    }
+}
+.yith-wcwl-share{
+    ul{
+        @include clear-list;
+    }
+}
+.caroufredsel_wrapper{
+    background: #f1f1f1;
+    border-top: 1px solid $border-color;
+}
+ul{
+    &.yith_magnifier_gallery{
+        li{
+            margin: 0 5px;
+            text-align: center;
+            .attachment-shop_thumbnail{
+                border: 1px solid $border-color;
+                &:hover,&:active{
+                    border: 1px solid $theme-color;
+                }
+            }
+            a{
+                margin: $theme-margin/2 0px;
+            }
+        }
+    }
+    &.display,&#shipping_method,&.payment_methods{
+        @include clear-list;
+    }
+    &.payment_methods{
+        li{
+            margin-bottom: $theme-margin;
+            label{
+                display: block;
+                margin-bottom: 5px;
+                padding: 0;
+                input{
+                    margin: 13px 10px 0px !important;
+                }
+            }
+        }
+    }
+    &.products-list{
+        margin-bottom: $theme-margin / 2;
+    }
+}
+// woocommerce-pagination
+.woo-pagination{
+    padding: $theme-padding;
+    position: relative;
+    background: $pagination-woo-bg;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+}
+.page-numbers{
+    margin: 0;
+    @include rtl-float-left();
+    padding: 0;
+    font-size: $page-numbers-font-size;
+    li{
+        list-style: none;
+        @include rtl-float-left();
+        @include rtl-margin-right(5px);
+        a,span{
+            min-height:30px ;
+            min-width: 30px;
+            line-height: 30px;
+            text-align: center;
+            padding: 0px 12px;
+            border-radius: 0 !important;
+            border: 0 !important;
+        }
+        span{
+            color: $page-numbers-link-hover-color;
+            background: $page-numbers-link-hover-bg;
+        }
+        a{
+            color: $page-numbers-link-color;
+            background: $page-numbers-link-bg;
+            text-decoration: none;
+            outline: none;
+            &:active,
+            &:hover,
+            &:focus{
+              color: $page-numbers-link-hover-color;
+              background: $page-numbers-link-hover-bg;
+            }
+        }
+    }
+}
+// style products
+.group_table{
+    margin-bottom: 10px;
+    tr{
+        border: 1px solid $border-color;
+        td{
+            padding: 5px;
+            white-space: normal;
+        }
+    }
+}
+// variations
+.variations{
+    .label{
+        border: 0;
+        display: table-cell;
+        vertical-align: middle;
+        label{
+            margin: 0;
+        }
+    }
+}
+.woocommerce-result-count{
+    font-size: $page-numbers-font-size;
+}
+// nav products
+.nav-product{
+    background: $nav-products-bg;
+    > li{
+        @include rtl-float-left();
+        > a{
+            font-size: $nav-products-font-size;
+            font-family: $nav-products-font-family;
+            color: $nav-products-link-color;
+            text-transform: uppercase;
+            &:active,&:hover,&:focus,&.active{
+                font-family: $nav-products-font-hover-family;
+                font-weight: 900;
+                color: $nav-products-link-hover-color;
+                outline: 0;
+            }
+        }
+        &.active > a {
+            &,
+            &:hover,
+            &:focus {
+                font-family: $nav-products-font-hover-family;
+                font-weight: 900;
+                color: $nav-products-link-hover-color;
+                outline: 0;
+            }
+        }
+        &:first-child{
+          > a{
+             @include rtl-padding-left(0);
+          }
+        }
+    }
+}
+.nav-product-title{
+    border-bottom: 1px solid $border-color;
+    @include rtl-padding-left(20px);
+    position: relative;
+    &:before{
+        display: block;
+        content:'';
+        height: 100%;
+        width: 5px;
+        position: absolute;
+        top: 0;
+        @include rtl-left(0);
+        background: $theme-color;
+    }
+    > li{
+        > a{
+            padding:16px 13px;
+        }
+    }
+}
+//well-tab
+.well-tab{
+  padding:10px 0;
+}
+// carousel
+.woo-carousel-controls{
+    .woo-carousel-control{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        bottom: 0;
+        z-index: 999;
+        i.fa{
+            @include size(24px,24px);
+            display: block;
+            text-align: center;
+            line-height: 22px;
+            color: $carousel-controls-color;
+            background: $carousel-controls-bg;
+            border-radius: $carousel-controls-raidus;
+            border: 1px solid $carousel-controls-border;
+            margin-top: -12px;
+        }
+        &.right {
+            left: auto;
+            right: 0;
+        }
+        &:hover,
+        &:active,
+        &:focus{
+            i.fa{
+                color: $carousel-controls-hover-color;
+                background: $carousel-controls-hover-bg;
+                border: 1px solid $carousel-controls-hover-border;
+            }
+        }
+    }
+}
+// form yith-wcwl-form
+#yith-wcwl-form,
+article > .woocommerce{
+    padding: $theme-padding/2;
+}
+//Checkout
+//--------------------------------------
+.title-check{
+    margin:0 0 $theme-padding/2;
+}
+.woocommerce-shipping-fields{
+    .checkbox{
+    	display: inline-block;
+        label{
+            padding: 0;
+			display:block;
+        }
+        .input-checkbox{
+            margin: 13px 10px 0px;
+        }
+    }
+    .form-row label{
+    	display: inline-block;
+    }
+}
+//product-category
+.term-description{
+    padding: $theme-padding $theme-padding 0;
+    border-bottom: 1px solid $border-color;
+}
+.products > .row{
+    > .first{
+        clear: both;
+    }
+}
+li.product-category{
+    list-style: none;
+    mark{
+        background: transparent;
+    }
+}
+//up date woocommerce
+.payment_methods{
+	.input-radio{
+		@include rtl-float-left();
+		@include rtl-base-toprightbottomleft(margin,7px ,5px,0,0);
+	}
+}

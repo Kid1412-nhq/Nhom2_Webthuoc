@@ -1,0 +1,106 @@
+/* Woocommerce variables*/
+// -------------------------
+
+// Star
+// -------------------------
+$star-rating-color:         #c6c6c6 !default;
+$star-rating-active-color:  #444444 !default;
+$star-rating-font-size:     9px !default;
+
+// Sale
+// -------------------------
+$sale-label-font-family:    $font-family-septenary !default;
+$sale-label-font-size:      10px !default;
+$sale-label-font-weight:    400 !default;
+$sale-label-transform:      uppercase !default;
+$sale-label-bg:             #f06142 !default;
+$sale-label-color:          $white !default;
+$sale-label-align:          $align-center !default;
+$sale-label-padding:        4px 20px !default;
+
+// Mini cart
+// -------------------------
+$mini-cart-font-size:               12px !default;
+$mini-cart-bg:                      $theme-color !default;
+$mini-cart-color:                   #fff !default;
+$mini-cart-rounded:                 0 !default;
+$mini-cart-padding:                 10px 25px !default;
+
+// Filter
+// -------------------------
+$filter-margin:                 0px !default;
+$filter-border-color:           $border-color !default;
+$filter-icon-font-size:         13px !default;
+
+// Product
+// -------------------------
+$product-bg:                    $white !default;
+$product-name-image-bg:         #f1f1f1 !default;
+$product-name-font-size:        14px !default;
+$product-name-font-family:      $font-family-septenary !default;
+$product-name-line-height:      $line-height-base !default;
+$product-name-color:            $black !default;
+$product-name-margin:           0px 0px 10px !default;
+$product-name-height:           40px !default;
+$product-name-hover-color:      $theme-color !default;
+$product-category-color:        $text-color !default;
+$product-category-hover-color:  $theme-color !default;
+$product-category-font-size:    10px !default;
+$product-category-bg:           $white !default;
+$product-category-padding:      18px 10px !default;
+$product-category-border-color: transparent !default;
+$product-category-border-hover-color: $border-color !default;
+$product-price-color:           #000 !default;
+$product-price-old-color:       #aaaaaa !default;
+$product-price-font-size:       14px !default;
+$product-price-font-family:     $font-family-secondary !default;
+$product-button-font-size:      10px !default;
+$product-button-border:         2px solid $border-color !default;
+$product-button-bg:             $white !default;
+$product-button-padding:        0 !default;
+$product-button-hover-color:    $white !default;
+$product-button-hover-border:   $theme-color !default;
+$product-button-hover-bg:       $theme-color !default;
+$product-link-color:            $black !default;
+$product-link-hover-color:      $theme-color !default;
+$product-icon-width:            69px !default;
+$product-icon-height:           40px !default;
+$product-icon-bg:               $white !default;
+$product-icon-color:            $text-color !default;
+$product-icon-font-size:        14px !default;
+$product-button-width:          103px !default;
+$product-rating-margin:         0 0 $theme-margin 0 !default;
+
+// Single Product
+// -------------------------
+$single-price-font-weight:     400 !default;
+$single-new-price-font-size:   24px !default;
+$single-new-price-color:       $red !default;
+// related
+// -------------------------
+$related-title-margin:          0 !default;
+$related-title-transform:       uppercase !default;
+// Widget Product
+// -------------------------
+$widget-product-list-width      :90px !default;
+$widget-product-list-height     :90px !default;
+$widget-product-list-padding    :20px 0 !default;
+$widget-product-list-margin     :0px !default;
+$widget-product-list-border     :$border-color !default;
+// nav-products
+// -------------------------
+$nav-products-bg                :#fff !default;
+$nav-products-font-size:        14px !default;
+$nav-products-font-family:      $font-family-base !default;
+$nav-products-font-hover-family:$font-family-base !default;
+$nav-products-link-color:       #aaaaaa !default;
+$nav-products-link-hover-color: #000 !default;
+
+// page-numbers
+// -------------------------
+$pagination-woo-bg:              #fff !default;
+$page-numbers-font-size:         12px !default;
+$page-numbers-link-color:        #828282 !default;
+$page-numbers-link-bg:           #fff !default;
+$page-numbers-link-hover-color:  #fff !default;
+$page-numbers-link-hover-bg:     #4d4237 !default;

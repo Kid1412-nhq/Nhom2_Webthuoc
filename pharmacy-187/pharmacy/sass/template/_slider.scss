@@ -1,0 +1,78 @@
+/*
+*  Revolution Slider
+*/
+.tp-caption{
+	&.text-style-white{
+		font-size: 60px;
+		color:$white;
+	}
+	&.text-style-yellow{
+		color: $yellow;
+		font-size: 60px;
+		text-transform: uppercase;
+	}
+	&.text-style-white-medium{
+		font-size: 36px;
+		color:$white;
+		width: 366px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid $slideshow-text-border;
+		font-family: $slideshow-font-family-special;
+	}
+	&.text-style-yellow-medium{
+		color: $yellow;
+		font-size: 100px;
+		text-transform: uppercase;
+	}
+	&.text-style-white-small{
+		font-size: 18px;
+		color:$white;
+	}
+	&.small_light_white{
+		color: $white;
+		line-height: normal;
+		text-transform: uppercase;
+		border-bottom: 2px solid $slideshow-text-border;
+		font-family: $font-family-base;
+		width: 366px;
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+}
+
+.tparrows{
+	&.default{
+		background-image: none;
+		@include size(32px,50px);
+		color: $white;
+		position: relative;
+		background-color: rgba($black, 0.25);
+		&:before{
+			content: "\f105";
+			font-family: $theme-font-name;
+			@include vertical-center();
+			margin: auto;
+			display: block;
+    		color: $white;
+    		font-weight: bold;
+    		font-size: 15px;
+    		@include size(2px,20px);
+		}
+	}
+	&.tp-leftarrow{
+		&:before{
+			content: "\f104";
+		}
+	}
+}
+.rev_slider_wrapper{
+    .tp-bannertimer{
+        background: $theme-color;
+    }
+}
+.tp-caption a{
+    .fa{
+        color: inherit;
+    }
+}
+

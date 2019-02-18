@@ -1,0 +1,469 @@
+
+// Mixin for generating new styles
+@mixin bg-styles($color) {
+    background-color:$color;
+}
+
+.bg-primary {
+    @include bg-styles( $brand-primary );
+}
+// Success appears as green
+.bg-success {
+     @include bg-styles( $brand-primary );
+}
+// Info appears as blue-green
+.bg-info {
+     @include bg-styles( $brand-primary );
+}
+// Warning appears as orange
+.bg-warning {
+     @include bg-styles( $brand-primary );
+}
+// Danger and error appear as red
+.bg-danger {
+     @include bg-styles( $brand-primary );
+}
+
+// Mixin for generating new styles
+@mixin text-styles($color) {
+    color:$color;
+}
+.text-primary {
+    @include text-styles( $brand-primary );
+}
+// Success appears as green
+.text-success {
+     @include text-styles( $brand-success );
+}
+// Info appears as blue-green
+.text-info {
+    @include text-styles( $brand-info );
+}
+// Warning appears as orange
+.text-warning {
+    @include text-styles( $brand-warning );
+}
+// Danger and error appear as red
+.text-danger {
+    @include text-styles( $brand-danger );
+}
+
+// rounded
+.rounded{
+	@include border-radius(50px);
+}
+
+.clear-list{
+    @include clear-list;
+}
+.white{
+    color: #fff;
+}
+.black{
+    color: #000;
+}
+
+/*------------------------------------*\
+    Tabs
+\*------------------------------------*/
+.tabs-list{
+    border: 0;
+    @include rtl-text-align-left();
+}
+
+/*------------------------------------*\
+    Breadcrumbs
+\*------------------------------------*/
+.breadcrumb{
+	> .fa{
+        @include rtl-margin(0, 5px, 0, 5px);
+	}
+}
+
+/*------------------------------------*\
+    Quickview
+\*------------------------------------*/
+#wpo_modal_quickview{
+	@include box-shadow(0 10px 25px rgba($black, 0.1));
+    @include border-radius(4px);
+    @include size(auto,auto);
+    border: 0;
+    .modal-body{
+        border: 5px solid lighten($border-color, 5%);
+    }
+    .modal-dialog{
+		overflow: hidden;
+		del{
+			.amount{
+				color: $text-color;
+			}
+		}
+    }
+    .modal-content{
+    	border: 0;
+    }
+    .modal-header{
+    	border: 0;
+        padding: 0;
+        min-height: inherit;
+    }
+    .product-info{
+    	padding: 0;
+        margin: 0;
+    	h1{
+    		padding-top: 0;
+            @include text-overflow();
+    	}
+    	.qty{
+    		position: relative;
+    		@include rtl-left(1px);
+    	}
+        .product_meta{
+            @include clearfix();
+            margin: 0;
+            > div{
+                margin-top: 10px;
+            }
+        }
+    }
+    .close{
+        position: relative;
+        z-index: 1;
+        top: 0;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        @include rtl-right(15px);
+        .fa,.icon{
+            @include transition(0.1s color linear);
+        }
+    }
+    .woocommerce .woo-carousel-controls{
+        top: 0;
+    }
+}
+
+/*------------------------------------*\
+    Customize Live Theme Editor
+\*------------------------------------*/
+#wpo-customize{
+	top: 0;
+    border: 0;
+	@include box-shadow(3px 2px 5px 0 rgba(50, 50, 50, 0.2));
+	.panelbutton{
+		border-color: darken($border-color, 5%);
+		@include box-shadow(3px 3px 5px -3px rgba($black, 0.15));
+	}
+	.panel-heading{
+		padding: 3px 10px;
+	}
+	.group-input{
+		margin-top: 0;
+		margin-bottom: 15px;
+		@include rtl-margin-right(6px);
+	}
+	.nav{
+		border: 0;
+		a{
+			padding: 5px 10px;
+			@include border-radius(0);
+            @include rtl-margin(0, 3px, 3px, 0);
+			border: 1px solid $border-color;
+			&:hover{
+				background: $white;
+			}
+		}
+	}
+	.label{
+		padding: 4px 5px;
+	}
+	.panelbutton{
+        background: $theme-color;
+		right: -40px;
+		@include box-shadow(none);
+        color: $white;
+        border: 0;
+        padding: 0;
+        display: table;
+        font-size: 18px;
+        text-align: center;
+        @include size(40px,40px);
+        > *{
+            display: table-cell;
+            vertical-align: middle;
+        }
+	}
+	.panel-heading{
+		padding: 2px 5px;
+	}
+}
+
+/*-------------------------------------------
+	Modal
+-------------------------------------------*/
+.modal-content {
+	@include box-shadow(none);
+	@include border-radius(0);
+}
+.modal-lg {
+    width: 900px;
+    &.modal-min-width{
+        @include size(500px,auto);
+        min-height: 90px;
+        .modal-content{
+            border: 0;
+        }
+    }
+    .total,.buttons{
+        text-align: center;
+    }
+    .amount{
+    	color: $theme-color;
+    }
+}
+
+.result-count{
+	padding: 5px 0;
+	margin: 0;
+}
+
+/*-------------------------------------------
+	No Margin
+-------------------------------------------*/
+.no-margin{
+	margin: 0 !important;
+	.pagination{
+		margin: 0;
+	}
+}
+.no-margin-left{
+	margin-left: 0 !important;
+}
+.no-margin-right{
+	margin-right: 0 !important;
+}
+.no-margin-top{
+	margin-top: 0 !important;
+}
+.no-margin-bottom{
+	margin-bottom: 0 !important;
+}
+
+/*-------------------------------------------
+	No Padding
+-------------------------------------------*/
+.no-padding{
+	padding: 0 !important;
+}
+.no-padding-left{
+	padding-left: 0 !important;
+}
+.no-padding-right{
+	padding-right: 0 !important;
+}
+.no-padding-top{
+	padding-top: 0 !important;
+}
+.no-padding-bottom{
+	padding-bottom: 0 !important;
+}
+
+/*-------------------------------------------
+	Text Transform
+-------------------------------------------*/
+.text-none{
+	text-transform: none;
+}
+.text-capitalize{
+	text-transform: capitalize;
+}
+.text-lowercase{
+	text-transform: lowercase;
+}
+
+/*-------------------------------------------
+    Align
+-------------------------------------------*/
+.center{
+    text-align: $align-center;
+}
+
+/*-------------------------------------------
+    Icon
+-------------------------------------------*/
+.lg-icon{
+    color: $black;
+    font-size: 36px;
+}
+.md-icon{
+    color: $black;
+    font-size: 30px;
+}
+.sm-icon{
+    color: $black;
+    font-size: 20px;
+}
+.xs-icon{
+    color: $black;
+    font-size: 10px;
+}
+
+/*-------------------------------------------
+	Wrapper
+-------------------------------------------*/
+.well{
+    &.no-margin{
+    	margin-bottom: 0;
+    }
+    &.no-padding{
+    	padding-bottom: 0;
+    }
+}
+
+/*------------------------------------*\
+    Mobile
+\*------------------------------------*/
+.active-mobile{
+	@include size(44px,70px);
+	text-align: center;
+    line-height: 70px;
+    position: relative;
+    cursor: default;
+    @include transition(all 0.3s ease 0s);
+    &:before{
+        background-color: transparent;
+        content: "";
+        display: block;
+        @include size(1px,40px);
+        @include rtl-left(0);
+        margin-top: -20px;
+        position: absolute;
+        top: 50%;
+    }
+    &:first-child:before{
+        display: none;
+    }
+    &:hover{
+        background-color: transparent;
+        .fa,.icon{
+            color: $theme-color;
+        }
+        &:before{
+            display: none;
+        }
+        .active-content{
+            @include rtl-left(auto);
+        }
+    }
+	> .fa, > .icon{
+        display: block;
+        color: $white;
+        position: absolute;
+        top: 50%;
+        font-size: 18px;
+        @include rtl-left(50%);
+        @include rtl-margin(-10px, -8px, -10px, -8px);
+	}
+    .wpo-search{
+        border: 0;
+    }
+    .active-content{
+        position: absolute;
+        top: 100%;
+        z-index: 9999;
+        color: $topbar-link-color;
+        padding: $theme-margin;
+        background-color: transparent;
+        @include rtl-left(-10000px);
+        @include opacity(0);
+        position: absolute;
+        min-width: 270px;
+        visibility: hidden;
+        @include rtl-right(0);
+        @include rtl-text-align-left();
+        @include transition(opacity 0.3s ease 0s);
+    }
+    &.cart-popup{
+        .active-content{
+            padding: 0;
+            background: $white;
+            min-width: 320px;
+        }
+    }
+    .title{
+        @include rtl-margin(0, 0, 10px, 0);
+        padding-bottom: $padding-large-vertical;
+        border-bottom: 1px solid transparent;
+    }
+    ul{
+        li{
+            display: block;
+            margin: 0;
+            padding: 10px 0;
+            line-height: normal;
+        }
+    }
+}
+
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+.page-title{
+    margin:0 ;
+    padding: $theme-padding/2;
+    background: #fff;
+    font-size: 20px;
+}
+
+/*------------------------------------*\
+    Custom Panel
+\*------------------------------------*/
+.custom-panel {
+    border: 0;
+    .panel-footer{
+        border-width: 0 1px 1px 1px;
+        border-style: solid;
+        border-color: $panel-inner-border;
+    }
+}
+
+.pricing-tables{
+    .panel-heading{
+        border-color: $border-color;
+    }
+    .panel-footer{
+        border-top: 0px;
+    }
+}
+
+/*------------------------------------*\
+    Extra class
+\*------------------------------------*/
+.wrapper-banner{
+    margin-bottom: $theme-margin ;
+    .widget-content{
+        padding:0;
+    }
+    .wpb_single_image{
+        margin: 0 !important;
+    }
+}
+.slogan{
+    .widget-content{
+        padding-top: 0 !important;
+    }
+    .wpb_text_column{
+        margin-bottom: 0 !important;
+    }
+    .no-padding{
+        .widget-content{
+            padding-bottom: 5px !important;
+        }
+    }
+}
+.title-slogan{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: $font-family-base;
+    margin-top: 9px;
+}

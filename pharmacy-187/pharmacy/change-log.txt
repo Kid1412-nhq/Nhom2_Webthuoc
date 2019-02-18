@@ -1,0 +1,6 @@
+Version: 1.8.6 Updated 8-Jan-2018
+- Fix bug vertical menu
+
+=============
+Version: 1.8.5 Updated  17-October-2017
+- Update woocommerce 3.2.1

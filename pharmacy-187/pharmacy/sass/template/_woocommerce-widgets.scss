@@ -1,0 +1,231 @@
+.widget{
+    &.widget_product_categories{
+        border: 0;
+    	background: $block-sidebar-box-hightlight-bg;
+    }
+    &.widget_wpo_tabs_widget{
+        ul{
+            li{
+                padding: 0;
+                border: 0;
+                a{
+                    @include rtl-padding-left(3px);
+                    @include rtl-padding-right(3px);
+                }
+            }
+        }
+    }
+    &.widget_text{
+        img{
+            margin: $theme-margin / 2 0;
+        }
+    }
+
+    // widget image => Using for Banner
+    .widget_sp_image-image-link{
+        display: block;
+        overflow: hidden;
+        position: relative;
+        img{
+            @include img-responsive();
+            @include opacity(1);
+            @include transition(opacity 0.35s);
+        }
+        // hover
+        &:hover{
+            img{
+                @include opacity(0.8);
+            }
+        }
+    }
+    .product_list_widget{
+        .image{
+            @include size($block-sidebar-widget-product-list-width,$block-sidebar-widget-product-list-height);
+        }
+    }
+}
+/*------------------------------------*\
+    Widget Price Filter
+\*------------------------------------*/
+.widget_price_filter {
+	.price_slider {
+		@include rtl-margin(0,0,1em,0);
+	}
+	.price_slider_amount {
+		@include rtl-text-align-right();
+		line-height: 2.4em;
+		font-size: 0.8751em;
+		.button {
+			@include rtl-float-left();
+		}
+	}
+	.ui-slider {
+		position: relative;
+		@include rtl-text-align-left();
+	}
+	.ui-slider .ui-slider-handle {
+		z-index: 2;
+		position:absolute;
+		@include size(10px,10px);
+		@include border-radius(20px);
+		cursor: pointer;
+		@include gradient-vertical($start-color: darken($theme-color, 5%), $end-color: lighten($theme-color, 10%), $start-percent: 0%, $end-percent: 100%);
+		outline:none;
+		top: -3px;
+	}
+	.ui-slider .ui-slider-range {
+		position:absolute;
+		z-index: 1;
+		font-size: .7em;
+		display:block;
+		border: 0;
+		@include box-shadow(0,0,0,1px,rgba($black,0.5));
+		@include border-radius(1em);
+	}
+	.price_slider_wrapper .ui-widget-content {
+		@include border-radius(1em);
+		background: darken($border-color, 10%);
+	}
+	.ui-slider-horizontal {
+		height: 5px;
+	}
+	.ui-slider-horizontal .ui-slider-range {
+		top: 0;
+		height: 100%;
+		background: $border-color;
+	}
+	.ui-slider-horizontal .ui-slider-range-min {
+		@include rtl-left(-1px);
+	}
+	.ui-slider-horizontal .ui-slider-range-max {
+		@include rtl-right(-1px);
+	}
+}
+.product_list_widget{
+    .widget-product{
+        margin: $widget-product-list-margin;
+        padding: $widget-product-list-padding;
+        border-bottom: 1px solid $widget-product-list-border;
+        &:first-child{
+            padding-top: 0;
+        }
+        &:last-child{
+            border: 0;
+            padding-bottom: 0;
+        }
+        .review{
+            @include rtl-clear-left();
+        }
+        .image{
+            @include rtl-margin-right(15px);
+            @include size($widget-product-list-width,$widget-product-list-height);
+        }
+        .rating{
+            margin-bottom: $theme-margin - 5;
+        }
+    }
+}
+// tab all products
+//--------------------------------------
+.widget-content{
+    .last-row{
+        clear: both;
+    }
+}
+// best deals
+.widget_deals_products{
+    overflow: hidden;
+    .widget-title{
+        margin: 0;
+    }
+}
+.woo-deals{
+    .carousel-inner{
+        overflow:visible;
+    }
+    .product-block {
+        margin: 0;
+        border:none;
+        .price{
+            margin: 0;
+        }
+        .name{
+            min-height: 0;
+        }
+        &:hover{
+            .caption:after{
+                display: none;
+            }
+        }
+    }
+    .description{
+        margin-bottom: $theme-padding/2;
+        font-size: 13px;
+    }
+    .pts-countdown{
+        margin-right:-$theme-margin;
+        margin-left:-$theme-margin;
+        padding: $deals-times-padding;
+        background: $deals-times-bg;
+        color: $deals-times-color;
+        font-family: $deals-times-font-family;
+        font-size: $deals-times-font-size;
+    }
+    .countdown-times{
+        overflow: hidden;
+        @include translate(0px, 0px);
+        @include  transition(all 0.4s ease);
+        > div{
+            padding: 10px;
+            border-right:1px solid lighten($deals-times-bg,5%);
+            width: 25%;
+            float: left;
+            text-align: center;
+            > b{
+                display: block;
+                font-size: 18px;
+                font-family: $font-family-secondary;
+                font-weight: 900;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+    }
+    .cart{
+        left: 0;
+        position: absolute;
+        right: 0;
+        @include opacity(0);
+        @include translate(0px, 60px);
+        @include  transition(all 0.4s ease);
+        visibility: hidden;
+        .add_to_cart_button{
+            &.added{
+                display: none;
+            }
+            color: #000000;
+            background: #fff;
+            font-weight: 900;
+            &:hover,&:active,&:focus{
+                color: #fff;
+                background: $theme-color;
+            }
+        }
+        .wc-forward{
+            margin: 0 auto;
+        }
+    }
+    &:hover{
+        .cart{
+            @include translate(0px, 30px);
+            visibility: visible;
+            @include opacity(1);
+        }
+        .countdown-times{
+            @include translate(0px, 30px);
+            visibility: hidden;
+            @include opacity(0);
+        }
+    }
+}
