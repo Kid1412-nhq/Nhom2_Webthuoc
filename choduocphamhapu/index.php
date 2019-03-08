@@ -1,6 +1,6 @@
 <?php
 
-	define("PATH", "http://localhost/php0818e/bandienthoai/index.php");
+	define("PATH", "http://localhost/php0818e/choduocphamhapu/index.php");
 	
 	require_once "connection.php";
 

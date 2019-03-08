@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container">
-		<h3>Chào mừng đến với cửa hàng điện thoại Hảo Quân</h3>
+		<h3>Chào mừng đến với cửa hàng thuốc Hảo Quân</h3>
 	</div>
 	<?= @$content ?>
 	<div class="container">Footer</div>

@@ -1,8 +1,15 @@
 <?php
 
 	$controllers = array(
-	  'user'	=> ['register','login','index','logout'],
-	  'product'	=> ['index', 'detail', 'create','delete','admin','seach']
+		'category'    => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
+	  	'customer'    => ['register','login','index','logout'],
+	  	'customertype'=> [],
+	  	'employee'    => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
+	  	'order'       => ['index', 'detail', 'create', 'admin', 'seach'],
+	  	'orderdetail' => [],
+	  	'product'	  => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
+	  	'shipper'     => [],
+	  	'supplier'    => []
 	);
 
 	if (!array_key_exists($controller, $controllers) || !in_array($action, $controllers[$controller])) {

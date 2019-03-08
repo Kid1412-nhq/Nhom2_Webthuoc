@@ -10,9 +10,9 @@
 			</form>
 		</div>
 		<div class="col-xs-6" style="text-align:right;">
-			<a href="views/user/login.php">Đăng nhập</a>
+			<a href="views/customer/login.php">Đăng nhập</a>
 			&nbsp;&nbsp; | &nbsp;&nbsp;
-			<a href="views/user/logout.php">Đăng xuất</a>
+			<a href="views/customer/logout.php">Đăng xuất</a>
 		</div>
 	</div>
 	<div class="row">
