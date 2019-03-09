@@ -3,7 +3,7 @@ require_once 'controllers/base_controller.php';
 class CastomerController extends BaseController{
 
 	public function __construct(){
-		$this->folder = "castomer";
+		$this->folder = "customer";
 	}
 
 	public function index(){

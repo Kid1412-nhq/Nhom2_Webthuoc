@@ -1,7 +1,7 @@
 <?php
 
 	$controllers = array(
-		'category'    => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
+	  'category'    => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
 	  	'customer'    => ['register','login','index','logout'],
 	  	'customertype'=> [],
 	  	'employee'    => ['index', 'detail', 'create', 'update', 'delete', 'admin', 'seach'],
